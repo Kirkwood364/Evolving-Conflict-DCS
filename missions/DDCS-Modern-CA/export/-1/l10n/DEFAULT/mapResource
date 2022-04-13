@@ -1,0 +1,8 @@
+mapResource = 
+{
+    ["ResKey_ImageBriefing_21756"] = "DDCS Logo - Discord1.png",
+    ["ResKey_ImageBriefing_21757"] = "DDCS Logo - Discord1.png",
+    ["ResKey_Action_40551"] = "missionRuntimeDDCS.lua",
+    ["ResKey_ImageBriefing_38371"] = "DDCS-Radio-Frequencies.png",
+    ["ResKey_ImageBriefing_38372"] = "DDCS-Radio-Frequencies.png",
+} -- end of mapResource

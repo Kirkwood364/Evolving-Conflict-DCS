@@ -1,0 +1,189 @@
+dictionary = 
+{
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_descriptionText_1"] = "QUICK START: \
+==============================================================\
+1. Choose your side in ALL chat \
+     * NOTE AVAILABLE AIRFRAMES for the side you wish to fly on!\
+          - type -red or -blue in ALL CHAT!\
+\
+2. Get on Comms!\
+     -  DISCORD: (Main COMMS) https://discord.gg/JmzkbWA\
+     -  GUILDED: (website) https://www.guilded.gg/DDCS/\
+     -  SRS: srs.dynamicdcs.com:5002\
+\
+3. Orient yourself!    \
+      -  F10 map BLUE/RED Circles = BLUFOR/REDFOR controlled territory\
+\
+WIN CONDITIONS:\
+==============================================================\
+     - CAPTURE ALL MOBs! (EXCEPT ANAPA and VAZIANI)\
+          * MOBs - Well defended primary enemy bases.\
+                = MOBs have both a Comms tower, Hardened Shelter, and multiple friendly units placed\
+                    randomly around the MOB.\
+          * FOBs - Undefended FARPs/Airfields.\
+               = FOBs only have a Hardened Shelter and FARP vehicles.\
+             \
+GAMEPLAY:\
+==============================================================\
+     - MOBS: \
+          1. Destroy all enemy units.\
+          2. Capture by occupying with friendly forces.\
+          3. Unpack repair crate.\
+          4. Repair aircraft (C-130/AN-30) or (MI-26/Blackhawk), MUST land at newly caprtured MOB to\
+              successfully repair MOB.\
+     \
+     - FOBs: \
+          1. Destroy enemy shelter.\
+          2. Unpack repair crate to capture FOB.\
+\
+     - Units are slung via the F10 radio menu:\
+          1. Land HELO within 200m of HARDENED SHELTER.\
+          2. Spawn crates from HARDENED SHELTERS at:\
+               = MOBs\
+               = FOBs\
+          3. Attach Cable\
+          4. MOVE crate 800 meters or greater from HARDENED SHELTER.\
+          5. LAND within 200 meters of crate.\
+          6. UNPACK crate from F10 RADIO menu.\
+\
+     - Bases and Strategic points are BUILT/REPAIRED with INTERNAL crates.\
+          1. LAND within 2KM of friendly HARDENED SHELTER.\
+          2. LOAD INTERNAL crate from F10 RADIO menu.\
+          3. TRANSPORT INTERNAL crate to WITHIN 2KM of a NEUTRAL FOB/MOB.\
+          4. LAND and REMAIN STILL!\
+          5. UNPACK INTERNAL CARGO from RADIO F10 menu.\
+\
+WARBONDS:\
+==============================================================\
+     1. ALL units cost WARBONDS!\
+          - Exception: Anapa and Vaziani offer FREE airframes.\
+     2. WEAPONS cost WARBONDS!\
+          - PREMIUM tier weapons COST WARBONDS.\
+          - There are FREE missiles, bombs, rockets available for every airframe.\
+     3. ACCUMULATE WARBONDS!\
+          STEP 1. KILL ENEMY UNITS! \
+               - Aircraft\
+               - Ground units \
+               - Ships \
+               - Strategic\
+               - Structures\
+          STEP 2. LAND AT FRIENDLY BASE!\
+          STEP 3. PROFIT!\
+\
+NO-FLY ZONES: (DO NOT ATTACK!)\
+==============================================================\
+REDFOR:  ANAPA AIRBASE\
+BLUFOR:  VAZIANI AIRBASE\
+\
+Rules and tutorials are available on Discord and Guilded. Smart weapons cannot be used to disable taxiways,ramps, and runways.\
+\
+Tactical CMDR Role: \
+     - Check Discord server information for details, access is reset each campaign.\
+\
+Tactical CMDR's: \
+     - Must be online on discord unless authorised, do not take control of someone elses units.\
+\
+Requirements to play on DDCS Modern Server\
+-You're in-game name must match your guilded/discord name exactly.\
+\
+DDCS SERVER RULES:\
+==============================================================\
+Please read the below and ensure you accept and understand them fully:\
+     - Posts that aren't allowed anywhere are ones that reinforce social structures of domination related to race, age, religion, gender, gender identity and expression, sexual orientation, disability, physical appearance or body size.\
+\
+     - Take heated discussions to PM's or another discord, I am shutting down that channel due to the toxicity it promotes.\
+\
+     - Conduct on DDCS Discord and also communities outside of DDCS is required to play on the DDCS network. Defamation/hijacking of other peoples servers & threads are grounds for BANISHMENT.\
+\
+     - Ramming on purpose is grounds for a BAN.\
+\
+     - Please try to be respectful and mindful of the work undertaken by others to provide you with this FREE experience/content.\
+\
+     - No Cheating, if you see something let a community moderator or admin know, don't start a flame war in chat, let us resolve the situation discreetly.\
+\
+     - Behave and Be Respectful, this community is made up of many different types/walks of people.\
+\
+     - Be constructive, give us suggestions on how to make something better, we want to hear why you don't like it but need the solution that goes with it.\
+\
+     - Try to balance the teams when you can, there is only so much we can do server wise.\
+\
+     - Understand that this system is constantly getting worked on and being always being balanced.\
+\
+     - If you want to control a combat arms vehicle, ASK for permission first from the owner! It is up to THEM to allow you access. If they say no, sling load your own or ask politely if someone will, usually someone will step up. People work VERY hard building convoys,. hours at a time!\
+\
+     - Anyone with a 300 ping or higher will be subject to a checks, if I deem'd too laggy you will be kick off until you fix your connection, this is to prevent people's aircraft from \"JUMPING\" out of the way of incoming missiles!\
+\
+THE FOLLOWING IS FORBIDDEN AND COULD RESULT IN A BAN:\
+==============================================================\
+     - INTENTIONALLY ramming ground units or crates with an air vehicle:\
+     - We are all guilty sometimes of over-committing to a gun run.\
+       Regular occurrence will be cause to remove your server access privileges.\
+      Conversely ramming air units with ground units is allowed and very entertaining.\
+\
+     - Ramming Aircraft with other Aircraft:\
+\
+     - Hiding units inside buildings:\
+\
+     - Shooting through or out of buildings you are inside with a ground unit.\
+\
+     - Driving or setting way-points to a location that the vehicle cannot fit.\
+          Examples:\
+               * Narrow towns\
+               * Deep thick forests\
+     - Doing so will cause path finding issues.\
+     - This will eventually kill ther server.\
+\
+     - Anything else that we deem to be an exploit.\
+          * Examples:\
+              = Disabling tree's\
+              = Buildings\
+              = Unsportsmanlike conduct, etc,.\
+\
+     - DO NOT BOMB with PGMs! (Precision Guided Munitions):\
+          * RUNWAYS\
+          * TAXIWAYS\
+          * PARKING SPOTS\
+               = DUMB WEAPONS are ALLOWED on the aforementioned targets!\
+\
+DO NOT BE A VIGILANTE! \
+==============================================================\
+- Tell a community moderator or admin!\
+- If you have an issue with someone. \
+     * Collect evidence\
+     * PM (private message) Community Moderator or Admin\
+- DO NOT take it to #general-chat-no-politics-no-religion.\
+\
+- DO NOT start venting in game chat or voice comm's.\
+\
+-  BE CIVIL, MATURE, and RESPECTFUL! \
+\
+!!!!!WARNING!!!!! \
+==============================================================\
+If you spawn with your engines running taxi immediatly for the next guy who will spawn in that location.\
+\
+MAGIC_IFF",
+    ["DictKey_descriptionBlueTask_3"] = "COMMUNICATION IS KEY!\
+WE STRONGLY ADVISE THAT YOU PARTICIPATE IN COMMS!\
+\
+AWACS Freq: \
+     - Anapa:                   124.100\
+     - Mineralny-Vody:   124.200\
+     - Senaki:                   124.300\
+     - Vaziani:                  124.400\
+     - EWR:                       124.000\
+\
+Tanker:    127.000",
+    ["DictKey_descriptionRedTask_2"] = "COMMUNICATION IS KEY!\
+WE STRONGLY ADVISE THAT YOU PARTICIPATE IN COMMS!\
+\
+AWACS Freq: \
+     - Anapa:                   124.100\
+     - Mineralny-Vody:   124.200\
+     - Senaki:                   124.300\
+     - Vaziani:                  124.400\
+     - EWR:                       124.000\
+\
+Tanker:    127.000",
+    ["DictKey_sortie_4"] = "DDCS[FullConflict|AirGnd|Capture|Reinforce]|Dedicated|24/7|Fiber",
+} -- end of dictionary

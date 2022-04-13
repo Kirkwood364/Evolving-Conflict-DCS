@@ -1,0 +1,1711 @@
+{ 
+    "_id" : "Krasnodar-Center", 
+    "__v" : NumberInt(0), 
+    "alt" : 30.01003074646, 
+    "baseId" : NumberInt(13), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        38.925202300775, 
+        45.087429883845
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.366+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(82), 
+    "mapLoc" : {
+        "x" : 11652.913085938, 
+        "y" : 366766.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.636+0000")
+}
+{ 
+    "_id" : "Novorossiysk", 
+    "__v" : NumberInt(0), 
+    "alt" : 40.010040283203, 
+    "baseId" : NumberInt(14), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        37.78622606048, 
+        44.673329604127
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.368+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(218), 
+    "mapLoc" : {
+        "x" : -40299.0234375, 
+        "y" : 279853.5
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.637+0000")
+}
+{ 
+    "_id" : "Krymsk", 
+    "__v" : NumberInt(0), 
+    "alt" : 20.010303497314, 
+    "baseId" : NumberInt(15), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        37.985886938697, 
+        44.961383022734
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.370+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(35), 
+    "mapLoc" : {
+        "x" : -7349.0327148438, 
+        "y" : 293711.96875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.639+0000")
+}
+{ 
+    "_id" : "Maykop-Khanskaya", 
+    "__v" : NumberInt(0), 
+    "alt" : 180.01019287109, 
+    "baseId" : NumberInt(16), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        40.021427482236, 
+        44.671440257355
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.372+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(34), 
+    "mapLoc" : {
+        "x" : -27625.943359375, 
+        "y" : 457047.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.639+0000")
+}
+{ 
+    "_id" : "Gelendzhik", 
+    "__v" : NumberInt(0), 
+    "alt" : 22.009923934937, 
+    "baseId" : NumberInt(17), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        38.004146350528, 
+        44.567674586004
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.374+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(36), 
+    "mapLoc" : {
+        "x" : -50995.6328125, 
+        "y" : 297848.84375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.640+0000")
+}
+{ 
+    "_id" : "Sochi-Adler", 
+    "__v" : NumberInt(0), 
+    "alt" : 30.010034561157, 
+    "baseId" : NumberInt(18), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        39.924231880466, 
+        43.439378434051
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.375+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(57), 
+    "mapLoc" : {
+        "x" : -165163.28125, 
+        "y" : 460901.53125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.641+0000")
+}
+{ 
+    "_id" : "Krasnodar-Pashkovsky", 
+    "__v" : NumberInt(0), 
+    "alt" : 34.010036468506, 
+    "baseId" : NumberInt(19), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        39.203066906325, 
+        45.046099641543
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.377+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(222), 
+    "mapLoc" : {
+        "x" : 8706.8193359375, 
+        "y" : 388985.71875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.642+0000")
+}
+{ 
+    "_id" : "Sukhumi-Babushara", 
+    "__v" : NumberInt(0), 
+    "alt" : 13.338506698608, 
+    "baseId" : NumberInt(20), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        41.142447588488, 
+        42.852741071635
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.378+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(290), 
+    "mapLoc" : {
+        "x" : -221381.6875, 
+        "y" : 565908.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.644+0000")
+}
+{ 
+    "_id" : "Gudauta", 
+    "__v" : NumberInt(0), 
+    "alt" : 21.01003074646, 
+    "baseId" : NumberInt(21), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        40.564175768401, 
+        43.124233340197
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.380+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(145), 
+    "mapLoc" : {
+        "x" : -195650.515625, 
+        "y" : 515898.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.646+0000")
+}
+{ 
+    "_id" : "Batumi", 
+    "__v" : NumberInt(0), 
+    "alt" : 10.044037818909, 
+    "baseId" : NumberInt(22), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        41.60927548351, 
+        41.603279859649
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.383+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(299), 
+    "mapLoc" : {
+        "x" : -356437.15625, 
+        "y" : 618210.875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.647+0000")
+}
+{ 
+    "_id" : "Senaki-Kolkhi", 
+    "__v" : NumberInt(0), 
+    "alt" : 13.239942550659, 
+    "baseId" : NumberInt(23), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        42.061021312856, 
+        42.238728081573
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.384+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(268), 
+    "mapLoc" : {
+        "x" : -281903.125, 
+        "y" : 648379.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.649+0000")
+}
+{ 
+    "_id" : "Kobuleti", 
+    "__v" : NumberInt(0), 
+    "alt" : 18.01001739502, 
+    "baseId" : NumberInt(24), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        41.876483823101, 
+        41.932105353453
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.386+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(244), 
+    "mapLoc" : {
+        "x" : -317604.90625, 
+        "y" : 636704.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.651+0000")
+}
+{ 
+    "_id" : "Kutaisi", 
+    "__v" : NumberInt(0), 
+    "alt" : 45.010047912598, 
+    "baseId" : NumberInt(25), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        42.4956840774, 
+        42.17915393769
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.387+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(247), 
+    "mapLoc" : {
+        "x" : -284582.8125, 
+        "y" : 685029.625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.652+0000")
+}
+{ 
+    "_id" : "Mineralnye Vody", 
+    "__v" : NumberInt(0), 
+    "alt" : 320.01031494141, 
+    "baseId" : NumberInt(26), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        43.100679733081, 
+        44.218646823807
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.389+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(288), 
+    "mapLoc" : {
+        "x" : -52089.546875, 
+        "y" : 707418.0625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.653+0000")
+}
+{ 
+    "_id" : "Nalchik", 
+    "__v" : NumberInt(0), 
+    "alt" : 430.01040649414, 
+    "baseId" : NumberInt(27), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        43.625108736098, 
+        43.51007143853
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.391+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(48), 
+    "mapLoc" : {
+        "x" : -125487.578125, 
+        "y" : 759560.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.654+0000")
+}
+{ 
+    "_id" : "Mozdok", 
+    "__v" : NumberInt(0), 
+    "alt" : 154.61184692383, 
+    "baseId" : NumberInt(28), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        44.620327262102, 
+        43.791303250938
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.393+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(254), 
+    "mapLoc" : {
+        "x" : -83329.7890625, 
+        "y" : 835634.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.656+0000")
+}
+{ 
+    "_id" : "Tbilisi-Lochini", 
+    "__v" : NumberInt(0), 
+    "alt" : 479.69479370117, 
+    "baseId" : NumberInt(29), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        44.946875226153, 
+        41.674720064437
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.394+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(119), 
+    "mapLoc" : {
+        "x" : -314926.25, 
+        "y" : NumberInt(895724)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.657+0000")
+}
+{ 
+    "_id" : "Soganlug", 
+    "__v" : NumberInt(0), 
+    "alt" : 449.41024780273, 
+    "baseId" : NumberInt(30), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        44.947183065317, 
+        41.641163266787
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.396+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(304), 
+    "mapLoc" : {
+        "x" : -318656.96875, 
+        "y" : 896274.9375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.658+0000")
+}
+{ 
+    "_id" : "Beslan", 
+    "__v" : NumberInt(0), 
+    "alt" : 524.00579833984, 
+    "baseId" : NumberInt(32), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        44.588922553543, 
+        43.208500987381
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.397+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(85), 
+    "mapLoc" : {
+        "x" : -148472.40625, 
+        "y" : 842251.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.660+0000")
+}
+{ 
+    "_id" : "Anapa-Vityazevo", 
+    "__v" : NumberInt(0), 
+    "alt" : 43.00004196167, 
+    "baseId" : NumberInt(12), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        37.359783477556, 
+        45.013174733772
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.398+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(218), 
+    "mapLoc" : {
+        "x" : -4447.7905273438, 
+        "y" : 244021.984375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.661+0000")
+}
+{ 
+    "_id" : "Vaziani", 
+    "__v" : NumberInt(0), 
+    "alt" : 464.50045776367, 
+    "baseId" : NumberInt(31), 
+    "category" : NumberInt(0), 
+    "centerLoc" : [
+        45.01909093846, 
+        41.637735936262
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.400+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(127), 
+    "mapLoc" : {
+        "x" : -318191.71875, 
+        "y" : 902331.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.682+0000")
+}
+{ 
+    "_id" : "Maykop-Vody_MOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 882.66326904297, 
+    "baseId" : NumberInt(4265), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.473797556484, 
+        43.912039956094
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.401+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(279), 
+    "mapLoc" : {
+        "x" : -100981.4296875, 
+        "y" : 580955.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.687+0000")
+}
+{ 
+    "_id" : "Maykop-Vody_MOB #2", 
+    "__v" : NumberInt(0), 
+    "alt" : 878.40057373047, 
+    "baseId" : NumberInt(4266), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.474687507351, 
+        43.914030666141
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.403+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(279), 
+    "mapLoc" : {
+        "x" : -100752.859375, 
+        "y" : 581004.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.689+0000")
+}
+{ 
+    "_id" : "EK61-Shirvanskaya_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 264.79919433594, 
+    "baseId" : NumberInt(11564), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.816805797061, 
+        44.354910800776
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.404+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(195), 
+    "mapLoc" : {
+        "x" : NumberInt(-64173), 
+        "y" : 443774.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.701+0000")
+}
+{ 
+    "_id" : "EK92-Shuntuk_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 342.68692016602, 
+    "baseId" : NumberInt(11571), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        40.174564316905, 
+        44.4353318047
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.406+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(342), 
+    "mapLoc" : {
+        "x" : -52792.55859375, 
+        "y" : 471503.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.702+0000")
+}
+{ 
+    "_id" : "FJ03-Esto_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 568.16351318359, 
+    "baseId" : NumberInt(11572), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        40.274992498996, 
+        43.688114399558
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.407+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(340), 
+    "mapLoc" : {
+        "x" : -135096.203125, 
+        "y" : NumberInt(486867)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.703+0000")
+}
+{ 
+    "_id" : "FK30-Gubskaya_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 445.58889770508, 
+    "baseId" : NumberInt(11598), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        40.665164019951, 
+        44.329319839581
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.409+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(212), 
+    "mapLoc" : {
+        "x" : -61009.33203125, 
+        "y" : 511662.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.709+0000")
+}
+{ 
+    "_id" : "FJ66-Pregradnaya_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 984.33709716797, 
+    "baseId" : NumberInt(11605), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.118095099459, 
+        43.948041265487
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.411+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(191), 
+    "mapLoc" : {
+        "x" : -99870.9375, 
+        "y" : 551989.25
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.710+0000")
+}
+{ 
+    "_id" : "FJ48-Psebay_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 617.04943847656, 
+    "baseId" : NumberInt(11606), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        40.825401291687, 
+        44.120044889107
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.413+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(191), 
+    "mapLoc" : {
+        "x" : -83044.71875, 
+        "y" : 526669.0625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.711+0000")
+}
+{ 
+    "_id" : "GH13-Achigvara_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 32.485706329346, 
+    "baseId" : NumberInt(11637), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.577492777981, 
+        42.697974623796
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.415+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(262), 
+    "mapLoc" : {
+        "x" : -235026.46875, 
+        "y" : 603242.25
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.719+0000")
+}
+{ 
+    "_id" : "GH30-Zugdidi_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 54.987907409668, 
+    "baseId" : NumberInt(11641), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.806698148864, 
+        42.47864405264
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.416+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(261), 
+    "mapLoc" : {
+        "x" : -257456.03125, 
+        "y" : 624588.1875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.721+0000")
+}
+{ 
+    "_id" : "GJ36-Sary_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 835.82434082031, 
+    "baseId" : NumberInt(11644), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.868094627435, 
+        43.894292128586
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.418+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(216), 
+    "mapLoc" : {
+        "x" : -99603.4140625, 
+        "y" : 612840.5
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.722+0000")
+}
+{ 
+    "_id" : "KP87-Krasnovo_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1039.2375488281, 
+    "baseId" : NumberInt(11685), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        42.278230951993, 
+        43.957986774177
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.419+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(80), 
+    "mapLoc" : {
+        "x" : -88877.09375, 
+        "y" : 644993.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.732+0000")
+}
+{ 
+    "_id" : "GJ10-Teberda_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1443.5454101563, 
+    "baseId" : NumberInt(11692), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.701050271375, 
+        43.387572839996
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.421+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(17), 
+    "mapLoc" : {
+        "x" : -157346.453125, 
+        "y" : 605365.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.735+0000")
+}
+{ 
+    "_id" : "GJ33-Nizh_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1125.9044189453, 
+    "baseId" : NumberInt(11700), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.868762007759, 
+        43.619505313106
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.423+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(83), 
+    "mapLoc" : {
+        "x" : -130130.640625, 
+        "y" : 616189.25
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.737+0000")
+}
+{ 
+    "_id" : "GH37-Zemo-Azhara_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 793.10601806641, 
+    "baseId" : NumberInt(11706), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.836460630589, 
+        43.108995755419
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.425+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(233), 
+    "mapLoc" : {
+        "x" : -187141.5, 
+        "y" : 619637.5625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.738+0000")
+}
+{ 
+    "_id" : "GH06-Amtkel_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 297.20983886719, 
+    "baseId" : NumberInt(11709), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.453708991932, 
+        43.029535893768
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.426+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(208), 
+    "mapLoc" : {
+        "x" : -199209.859375, 
+        "y" : 589369.4375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.739+0000")
+}
+{ 
+    "_id" : "LM26-Tshentaro_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 145.03628540039, 
+    "baseId" : NumberInt(11716), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        42.826665455409, 
+        42.154371355951
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.428+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(308), 
+    "mapLoc" : {
+        "x" : -284209.5, 
+        "y" : 712720.5
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.742+0000")
+}
+{ 
+    "_id" : "EJ67-Pshekha_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1290.4378662109, 
+    "baseId" : NumberInt(11563), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.837236834527, 
+        44.008797528544
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.429+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(168), 
+    "mapLoc" : {
+        "x" : -102487.296875, 
+        "y" : 448615.96875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.744+0000")
+}
+{ 
+    "_id" : "LN12-Kveda_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 501.9833984375, 
+    "baseId" : NumberInt(14027), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        42.760007702767, 
+        42.638518766835
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.431+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(17), 
+    "mapLoc" : {
+        "x" : -231023.328125, 
+        "y" : 700962.875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.747+0000")
+}
+{ 
+    "_id" : "KM89-Huntsi_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 156.4345703125, 
+    "baseId" : NumberInt(14028), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        42.419598995397, 
+        42.37499829093
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:50:12.433+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(17), 
+    "mapLoc" : {
+        "x" : -263514.53125, 
+        "y" : 676308.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.748+0000")
+}
+{ 
+    "_id" : "~Carrier2 #020", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        38.950034692476, 
+        42.413935456349
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.093+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:18.093+0000"), 
+    "enabled" : true
+}
+{ 
+    "_id" : "~Carrier|West|Roosevelt|Blue|1|", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        38.949611988277, 
+        42.413865488833
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.094+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.752+0000"), 
+    "alt" : NumberInt(0), 
+    "baseId" : NumberInt(12698), 
+    "category" : NumberInt(2), 
+    "enabled" : true, 
+    "hdg" : NumberInt(321), 
+    "mapLoc" : {
+        "x" : NumberInt(-285208), 
+        "y" : 390089.75
+    }, 
+    "mapType" : "Caucasus"
+}
+{ 
+    "_id" : "~Carrier|West|Roosevelt|Blue|2|", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        38.965944674188, 
+        42.392991407396
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.095+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.753+0000"), 
+    "alt" : NumberInt(0), 
+    "baseId" : NumberInt(13220), 
+    "category" : NumberInt(2), 
+    "enabled" : true, 
+    "hdg" : NumberInt(321), 
+    "mapLoc" : {
+        "x" : -287432.28125, 
+        "y" : 391597.65625
+    }, 
+    "mapType" : "Caucasus"
+}
+{ 
+    "_id" : "~Carrier|West|Roosevelt|Blue|3|", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        38.968320410813, 
+        42.423676818786
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.108+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.755+0000"), 
+    "alt" : NumberInt(0), 
+    "baseId" : NumberInt(13221), 
+    "category" : NumberInt(2), 
+    "enabled" : true, 
+    "hdg" : NumberInt(321), 
+    "mapLoc" : {
+        "x" : -284009.625, 
+        "y" : 391552.9375
+    }, 
+    "mapType" : "Caucasus"
+}
+{ 
+    "_id" : "~Carrier|West|Roosevelt|Blue|4|", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        38.925286413843, 
+        42.407712250258
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.109+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.758+0000"), 
+    "alt" : NumberInt(0), 
+    "baseId" : NumberInt(13222), 
+    "category" : NumberInt(2), 
+    "enabled" : true, 
+    "hdg" : NumberInt(321), 
+    "mapLoc" : {
+        "x" : -286032.03125, 
+        "y" : 388135.15625
+    }, 
+    "mapType" : "Caucasus"
+}
+{ 
+    "_id" : "~Carrier|West|Forrestal|Blue|5|", 
+    "__v" : NumberInt(0), 
+    "centerLoc" : [
+        39.019016746309, 
+        42.348045256802
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:18.110+0000"), 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.760+0000"), 
+    "alt" : NumberInt(0), 
+    "baseId" : NumberInt(13849), 
+    "category" : NumberInt(2), 
+    "enabled" : true, 
+    "hdg" : NumberInt(321), 
+    "mapLoc" : {
+        "x" : -292116.125, 
+        "y" : 396322.78125
+    }, 
+    "mapType" : "Caucasus"
+}
+{ 
+    "_id" : "Beslan_MOB #005", 
+    "__v" : NumberInt(0), 
+    "alt" : 1688.3271484375, 
+    "baseId" : NumberInt(1649), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.618197455964, 
+        42.62395614015
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.855+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(302), 
+    "mapLoc" : {
+        "x" : -213135.71875, 
+        "y" : 853732.875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.662+0000")
+}
+{ 
+    "_id" : "Beslan_MOB #006", 
+    "__v" : NumberInt(0), 
+    "alt" : 1693.2725830078, 
+    "baseId" : NumberInt(1648), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.615554633258, 
+        42.625688480749
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.856+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(303), 
+    "mapLoc" : {
+        "x" : -212973.28125, 
+        "y" : NumberInt(853489)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.663+0000")
+}
+{ 
+    "_id" : "Maykop-Vody_MOB #005", 
+    "__v" : NumberInt(0), 
+    "alt" : 881.56866455078, 
+    "baseId" : NumberInt(4270), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.47689904444, 
+        43.911386480898
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.857+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(279), 
+    "mapLoc" : {
+        "x" : -101028.2890625, 
+        "y" : 581212.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.666+0000")
+}
+{ 
+    "_id" : "Kutaisi-Vaziani_MOB #3", 
+    "__v" : NumberInt(0), 
+    "alt" : 676.49340820313, 
+    "baseId" : NumberInt(4494), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.697959507368, 
+        42.008546693708
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.859+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(222), 
+    "mapLoc" : {
+        "x" : -291666.84375, 
+        "y" : NumberInt(786866)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.670+0000")
+}
+{ 
+    "_id" : "Kutaisi-Vaziani_MOB #1", 
+    "__v" : NumberInt(0), 
+    "alt" : 677.32592773438, 
+    "baseId" : NumberInt(4493), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.696785344528, 
+        42.010661061242
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.861+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(222), 
+    "mapLoc" : {
+        "x" : NumberInt(-291444), 
+        "y" : 786738.875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.672+0000")
+}
+{ 
+    "_id" : "Tuapse_MOB #002", 
+    "__v" : NumberInt(0), 
+    "alt" : 152.61744689941, 
+    "baseId" : NumberInt(9925), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.118215403482, 
+        44.090271842195
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.863+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(301), 
+    "mapLoc" : {
+        "x" : -97984.34375, 
+        "y" : 390290.78125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.674+0000")
+}
+{ 
+    "_id" : "Tuapse_MOB #003", 
+    "__v" : NumberInt(0), 
+    "alt" : 156.97567749023, 
+    "baseId" : NumberInt(9926), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.120409994193, 
+        44.088921377556
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.865+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(301), 
+    "mapLoc" : {
+        "x" : -98121.2578125, 
+        "y" : 390477.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.675+0000")
+}
+{ 
+    "_id" : "DK68-Mihaylovskoe_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 7.0439476966858, 
+    "baseId" : NumberInt(11689), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        38.493701110604, 
+        45.009553633357
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.866+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(297), 
+    "mapLoc" : {
+        "x" : 597.55432128906, 
+        "y" : 333398.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.677+0000")
+}
+{ 
+    "_id" : "LP16-Kislovodsk_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 774.96441650391, 
+    "baseId" : NumberInt(11612), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        42.743796054343, 
+        43.951896620538
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.868+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(224), 
+    "mapLoc" : {
+        "x" : -85207.78125, 
+        "y" : 682442.5
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.678+0000")
+}
+{ 
+    "_id" : "Maykop-Vody_MOB #001", 
+    "__v" : NumberInt(0), 
+    "alt" : 876.345703125, 
+    "baseId" : NumberInt(13094), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        41.477721878944, 
+        43.913386048921
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.869+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(279), 
+    "mapLoc" : {
+        "x" : -100799.2890625, 
+        "y" : 581255.4375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.680+0000")
+}
+{ 
+    "_id" : "Ambrolauri_MOB #1-1", 
+    "__v" : NumberInt(0), 
+    "alt" : 570.20611572266, 
+    "baseId" : NumberInt(14029), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.154175584526, 
+        42.529355314442
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.870+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(254), 
+    "mapLoc" : {
+        "x" : -239312.28125, 
+        "y" : 734787.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.681+0000")
+}
+{ 
+    "_id" : "Beslan_MOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1698.6799316406, 
+    "baseId" : NumberInt(1641), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.612624252293, 
+        42.624107035331
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.873+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(303), 
+    "mapLoc" : {
+        "x" : -213182.65625, 
+        "y" : 853272.8125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.684+0000")
+}
+{ 
+    "_id" : "Beslan_MOB #002", 
+    "__v" : NumberInt(0), 
+    "alt" : 1693.2113037109, 
+    "baseId" : NumberInt(1642), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.615298890566, 
+        42.622317264005
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.875+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(303), 
+    "mapLoc" : {
+        "x" : -213351.125, 
+        "y" : 853520.1875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.686+0000")
+}
+{ 
+    "_id" : "Kutaisi-Vaziani_MOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 678.24066162109, 
+    "baseId" : NumberInt(4490), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.693901923593, 
+        42.01003124222
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.879+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(222), 
+    "mapLoc" : {
+        "x" : -291544.28125, 
+        "y" : 786508.5625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.690+0000")
+}
+{ 
+    "_id" : "Kutaisi-Vaziani_MOB #2", 
+    "__v" : NumberInt(0), 
+    "alt" : 677.29473876953, 
+    "baseId" : NumberInt(4491), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.695272686035, 
+        42.007733717323
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.881+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(222), 
+    "mapLoc" : {
+        "x" : -291785.4375, 
+        "y" : 786654.5625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.692+0000")
+}
+{ 
+    "_id" : "Tuapse_MOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 137.59808349609, 
+    "baseId" : NumberInt(9923), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.114031274415, 
+        44.093780792789
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.882+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(327), 
+    "mapLoc" : {
+        "x" : -97619.515625, 
+        "y" : 389926.71875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.693+0000")
+}
+{ 
+    "_id" : "Tuapse_MOB #001", 
+    "__v" : NumberInt(0), 
+    "alt" : 143.40258789063, 
+    "baseId" : NumberInt(9924), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.115998556552, 
+        44.091740132163
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.883+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(305), 
+    "mapLoc" : {
+        "x" : -97834.46875, 
+        "y" : 390101.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.694+0000")
+}
+{ 
+    "_id" : "MM17-Tskhinvali_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 907.2314453125, 
+    "baseId" : NumberInt(11220), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.958844500862, 
+        42.262303484377
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.884+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(352), 
+    "mapLoc" : {
+        "x" : -260673.375, 
+        "y" : 804840.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.695+0000")
+}
+{ 
+    "_id" : "MN21-Zemo_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1737.6276855469, 
+    "baseId" : NumberInt(11225), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.117939713251, 
+        42.572407885625
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.886+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(352), 
+    "mapLoc" : {
+        "x" : -224462.03125, 
+        "y" : 813411.5625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.696+0000")
+}
+{ 
+    "_id" : "MN34-Nigniy_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 863.099609375, 
+    "baseId" : NumberInt(11228), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.157063768535, 
+        42.875391434575
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.887+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(9), 
+    "mapLoc" : {
+        "x" : -190343.46875, 
+        "y" : 812118.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.698+0000")
+}
+{ 
+    "_id" : "EJ44-Verhne_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 92.062522888184, 
+    "baseId" : NumberInt(11243), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.615137248411, 
+        43.733396413678
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.889+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(355), 
+    "mapLoc" : {
+        "x" : -134541.734375, 
+        "y" : NumberInt(433267)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.699+0000")
+}
+{ 
+    "_id" : "DK80-Novomihay_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 101.82009124756, 
+    "baseId" : NumberInt(11582), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        38.818620423967, 
+        44.29108168701
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.894+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(343), 
+    "mapLoc" : {
+        "x" : -77421.875, 
+        "y" : 364718.875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.705+0000")
+}
+{ 
+    "_id" : "EJ36-Soloniki_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 90.649765014648, 
+    "baseId" : NumberInt(11591), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.389716450307, 
+        43.899696644431
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.895+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(304), 
+    "mapLoc" : {
+        "x" : -117497.953125, 
+        "y" : 413675.90625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.706+0000")
+}
+{ 
+    "_id" : "DK52-Pshada_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 126.1231918335, 
+    "baseId" : NumberInt(11593), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        38.462371961245, 
+        44.437728707946
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.897+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(193), 
+    "mapLoc" : {
+        "x" : -63091.92578125, 
+        "y" : 335204.40625
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.707+0000")
+}
+{ 
+    "_id" : "LP88-Georgievsk_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 288.57162475586, 
+    "baseId" : NumberInt(11617), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.52997264592, 
+        44.108884756488
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.902+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(217), 
+    "mapLoc" : {
+        "x" : -59931.13671875, 
+        "y" : 743300.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.712+0000")
+}
+{ 
+    "_id" : "MM76-Zhinvali_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 809.06457519531, 
+    "baseId" : NumberInt(11619), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.691751994311, 
+        42.179987529294
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.903+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(221), 
+    "mapLoc" : {
+        "x" : -261673.4375, 
+        "y" : 866665.5
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.714+0000")
+}
+{ 
+    "_id" : "MM69-Nigniy_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1309.9304199219, 
+    "baseId" : NumberInt(11623), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.55053977157, 
+        42.426384764934
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.905+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(264), 
+    "mapLoc" : {
+        "x" : -235880.28125, 
+        "y" : 851211.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.715+0000")
+}
+{ 
+    "_id" : "MM73-Saguramo_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 601.77593994141, 
+    "baseId" : NumberInt(11624), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.751279077668, 
+        41.89499123828
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.906+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(231), 
+    "mapLoc" : {
+        "x" : -292693.71875, 
+        "y" : 876007.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.716+0000")
+}
+{ 
+    "_id" : "MN75-Datchnoe_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 741.00964355469, 
+    "baseId" : NumberInt(11631), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.66461577196, 
+        42.968767040687
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.908+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(179), 
+    "mapLoc" : {
+        "x" : -174259.90625, 
+        "y" : 852166.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.718+0000")
+}
+{ 
+    "_id" : "MM24-Gori_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 614.8896484375, 
+    "baseId" : NumberInt(11649), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.129123869276, 
+        41.983162189028
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.914+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(264), 
+    "mapLoc" : {
+        "x" : -289874.78125, 
+        "y" : 823004.25
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.723+0000")
+}
+{ 
+    "_id" : "MM54-Kaspi_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 528.88403320313, 
+    "baseId" : NumberInt(11653), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.441241479026, 
+        41.909032333719
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.916+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(290), 
+    "mapLoc" : {
+        "x" : -294663.40625, 
+        "y" : 850024.8125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.725+0000")
+}
+{ 
+    "_id" : "MP30-Planovskoye_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 280.62753295898, 
+    "baseId" : NumberInt(11664), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.185120941911, 
+        43.397099283847
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.917+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(154), 
+    "mapLoc" : {
+        "x" : -132035.375, 
+        "y" : 806571.125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.726+0000")
+}
+{ 
+    "_id" : "MP23-Mayskiy_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 208.79666137695, 
+    "baseId" : NumberInt(11668), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.126578908437, 
+        43.632120753471
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.918+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(176), 
+    "mapLoc" : {
+        "x" : -106555.40625, 
+        "y" : 798288.1875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.728+0000")
+}
+{ 
+    "_id" : "MP05-Soldatskaya_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 291.96917724609, 
+    "baseId" : NumberInt(11675), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.785382122856, 
+        43.864066023694
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.920+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(195), 
+    "mapLoc" : {
+        "x" : -84457.6484375, 
+        "y" : 767348.4375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.729+0000")
+}
+{ 
+    "_id" : "MN37-Alagir_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 470.25662231445, 
+    "baseId" : NumberInt(11676), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        44.260337352576, 
+        43.13653448672
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.922+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(175), 
+    "mapLoc" : {
+        "x" : -160170.375, 
+        "y" : NumberInt(816621)
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.731+0000")
+}
+{ 
+    "_id" : "EK46-Oktyabr_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 57.314273834229, 
+    "baseId" : NumberInt(11688), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        39.631014974653, 
+        44.847877188395
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.924+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(235), 
+    "mapLoc" : {
+        "x" : -10630.599609375, 
+        "y" : 424495.3125
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.734+0000")
+}
+{ 
+    "_id" : "LM56-Makatubani_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 335.27255249023, 
+    "baseId" : NumberInt(11714), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.26009192172, 
+        42.111193355186
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.931+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(93), 
+    "mapLoc" : {
+        "x" : -284748.15625, 
+        "y" : 749163.75
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.741+0000")
+}
+{ 
+    "_id" : "LN80-Chasavali_FOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 1333.4569091797, 
+    "baseId" : NumberInt(14026), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.64007779739, 
+        42.520287663374
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.935+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(26), 
+    "mapLoc" : {
+        "x" : -235364.15625, 
+        "y" : 774873.9375
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.745+0000")
+}
+{ 
+    "_id" : "Ambrolauri_MOB", 
+    "__v" : NumberInt(0), 
+    "alt" : 530.66906738281, 
+    "baseId" : NumberInt(14030), 
+    "category" : NumberInt(1), 
+    "centerLoc" : [
+        43.159112539265, 
+        42.526564286438
+    ], 
+    "createdAt" : ISODate("2022-03-10T07:56:32.940+0000"), 
+    "enabled" : true, 
+    "hdg" : NumberInt(74), 
+    "mapLoc" : {
+        "x" : -239573.421875, 
+        "y" : 735230.6875
+    }, 
+    "mapType" : "Caucasus", 
+    "updatedAt" : ISODate("2022-03-10T07:56:56.750+0000")
+}

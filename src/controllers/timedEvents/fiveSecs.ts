@@ -1,0 +1,100 @@
+/*
+ * DDCS Licensed under AGPL-3.0 by Andrew "Drex" Finegan https://github.com/afinegan/DynamicDCS
+ */
+
+import * as _ from "lodash";
+import { defaultsDeep } from "lodash";
+import * as ddcsControllers from "../";
+import * as ddcsController from "../action/unitDetection";
+import { engineGlobals, side } from "../constants";
+
+
+
+export async function processFiveSecActions(fullySynced: boolean): Promise<void> {
+    const engineCache = ddcsControllers.getEngineCache();
+    const replenThreshold = 1; // percentage under max
+    const replenBase = engineCache.campaign.replenThresholdBase * replenThreshold;
+    const replenTimer = _.random(engineCache.campaign.replenTimer / 2, engineCache.campaign.replenTimer);
+    await ddcsControllers.syncCheck(ddcsControllers.getCurServerCnt());
+
+    await ddcsControllers.processCommandQue();
+    await ddcsControllers.checkForLockedCA();
+
+    if (fullySynced) {
+        // resetCampaignController.checkTimeToRestart(serverName); //for testing base capture quickly
+        // spawn support planes to replenish base units
+        await ddcsControllers.updateUnitCampaignParents();
+        const bases = await ddcsControllers.campaignAirfieldActionRead({
+            baseType: "MOB",
+            bubbleMapIds: _.toString(ddcsControllers.getEngineCache().campaign.currentCampaignBubble)
+        });
+        for (const base of bases) {
+            const curRegEx = "^" + base._id + " #";
+            const unitCnt = replenBase;
+            const units = await ddcsControllers.unitActionRead({name: new RegExp(curRegEx), dead: false});
+            const baseReplenTime = (base.replenTime) ? base.replenTime : 0;
+            const replenEpoc = new Date(baseReplenTime).getTime();
+            const aliveComms = await ddcsControllers.unitActionRead({
+                _id: base._id + " Comms tower M",
+                dead: false,
+                bubbleMapParents: _.toString(ddcsControllers.getEngineCache().campaign.currentCampaignBubble)
+            });
+            if (aliveComms.length > 0) {
+                if ((units.length < unitCnt) && replenEpoc < new Date().getTime()) {
+                    //  if (( (base._id === "Tuapse_MOB") || units.length < unitCnt) && replenEpoc < new Date().getTime()) {
+                    await ddcsControllers.campaignAirfieldActionUpdateReplenTimer({
+                        _id: base._id,
+                        replenTime: new Date().getTime() + (replenTimer * 1000)
+                    });
+                    await ddcsControllers.spawnSupportPlane(base, base.side);
+                }
+            }
+        }
+        await ddcsControllers.checkUnitsToBaseForCapture();
+
+        if (engineCache.campaign.reactiveConvoyAI) {
+            await ddcsControllers.killEnemyWithinSightOfConvoy();
+        }
+
+        if (engineCache.campaign.reactiveBaseAI) {
+            await ddcsControllers.aiDefendBase();
+        }
+
+        await ddcsControllers.baseAWACSUpkeep();
+
+        // preliminary carrier spawn on new sync
+        const westCarrierGroupName = "~Carrier|West|Lincoln|Red|";
+        const eastCarrierGroupName = "~Carrier|East|Roosevelt|Blue|";
+
+        const westCarrier = await ddcsControllers.unitActionRead({_id: westCarrierGroupName + "1|", isActive: false, dead: false});
+        const eastCarrier = await ddcsControllers.unitActionRead({_id: eastCarrierGroupName + "1|", isActive: false, dead: false});
+
+        // console.log("carrer: ", westCarrier.length, eastCarrier.length);
+        if (westCarrier.length > 0) {
+            await ddcsControllers.sendUDPPacket("frontEnd", {
+                actionObj: {
+                    action: "CMD",
+                    cmd: [
+                        "Group.getByName(\"" + westCarrierGroupName + "\"):activate()"
+                    ],
+                    reqID: 0,
+                    time: new Date()
+                }
+            });
+        }
+
+        if (eastCarrier.length > 0) {
+            // await ddcsControllers.setFarpMarks();
+            await ddcsControllers.sendUDPPacket("frontEnd", {
+                actionObj: {
+                    action: "CMD",
+                    cmd: [
+                        "Group.getByName(\"" + eastCarrierGroupName + "\"):activate()"
+                    ],
+                    reqID: 0,
+                    time: new Date()
+                }
+            });
+        }
+    }
+}

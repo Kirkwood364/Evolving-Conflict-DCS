@@ -1,0 +1,1800 @@
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82b91"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.125+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.125+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82b9f"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.136+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.136+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bac"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.147+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.147+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bba"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.157+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.157+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bc7"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.169+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.169+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bd5"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.180+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.180+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82be2"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.190+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.190+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bef"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.202+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.202+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82bfe"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.214+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.214+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c09"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.275+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.275+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c2c"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.319+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.319+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c40"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.332+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.332+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c51"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.346+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.346+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c64"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.361+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.361+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82c76"), 
+    "timeToExecute" : 1649777423073.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.379+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.379+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82dc1"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.633+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.633+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82dd4"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.647+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.647+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82de8"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.660+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.660+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82dfb"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.673+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.673+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e0f"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.688+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.688+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e23"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.702+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.702+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e37"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.716+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.716+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e4b"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.729+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.729+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e5f"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.744+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.744+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e73"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.758+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.758+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82e97"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.784+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.784+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82eaa"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.798+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.798+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82ec2"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.814+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.814+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82edf"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.835+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.835+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad3656e371534b82efc"), 
+    "timeToExecute" : 1649777423577.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:23.855+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:23.855+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b82fd6"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.026+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.026+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b82fee"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.043+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.043+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83006"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.059+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.059+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8301e"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.075+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.075+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83035"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.091+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.091+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83049"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.106+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.106+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8305d"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.121+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.121+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8306f"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.135+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.135+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83082"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.150+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.150+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83096"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.164+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.164+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b830b8"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.190+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.190+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b830cf"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.207+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.207+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b830ed"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.231+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.231+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8310d"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.261+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.261+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8312d"), 
+    "timeToExecute" : 1649777423962.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.283+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.283+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8335f"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.715+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.715+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b8336f"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.725+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.725+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83380"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.735+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.735+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83391"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.745+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.745+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833a2"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.756+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.756+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833b2"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.765+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.765+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833c3"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.775+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.775+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833d4"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.787+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.787+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833e5"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.797+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.797+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b833f6"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.808+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.808+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83414"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.827+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.827+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83424"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.837+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.837+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83435"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.847+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.847+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83445"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.857+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.857+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ad4656e371534b83456"), 
+    "timeToExecute" : 1649777424662.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with _GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:24.867+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:24.867+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84bd3"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.627+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.627+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84bed"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.645+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.645+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c07"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.661+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.661+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c20"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.675+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.675+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c33"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.689+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.689+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c41"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.700+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.700+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c4f"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.711+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.711+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c5d"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.723+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.723+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c6c"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.734+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.734+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c7a"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.744+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.744+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84c93"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.764+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.764+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84ca1"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.775+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.775+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84caf"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.786+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.786+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84cbe"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.797+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.797+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559ada656e371534b84ccc"), 
+    "timeToExecute" : 1649777430574.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:30.808+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:30.808+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b85087"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.869+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.869+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b8508c"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.877+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.877+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b85091"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.885+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.885+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b85096"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.894+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.894+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b8509b"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.902+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.902+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850a0"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.911+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.911+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850a5"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.919+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.919+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850aa"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.927+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.927+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850af"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.936+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.936+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850b4"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.944+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.944+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850bc"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.960+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.960+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850c1"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.969+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.969+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850c6"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.977+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.977+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850cb"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.986+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.986+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adb656e371534b850d0"), 
+    "timeToExecute" : 1649777431828.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk SR 9S18M1 with weapons.bombs.GBU_38[μ0.5](485 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:31.994+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:31.994+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8515d"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.251+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.251+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85162"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.259+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.259+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85167"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.267+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.267+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8516c"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.276+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.276+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85171"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.284+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.284+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85176"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.293+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.293+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8517b"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.301+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.301+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85180"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.309+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.309+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85185"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.319+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.319+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8518a"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.327+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.327+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85192"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.344+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.344+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85197"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.352+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.352+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8519c"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.360+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.360+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b851a1"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.369+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.369+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b851a6"), 
+    "timeToExecute" : 1649777432193.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.377+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.377+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b851fa"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5618, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.875+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.875+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85200"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5057, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.884+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.884+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85205"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5836, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.892+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.892+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8520a"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4651, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.900+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.900+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8520f"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5867, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.910+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.910+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85214"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4469, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.920+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.920+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85219"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5868, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.928+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.928+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8521e"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5889, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.937+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.937+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85223"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5117, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.945+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.945+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85228"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5920, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.953+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.953+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85230"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(4477, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.969+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.969+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b85235"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5838, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.977+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.977+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8523a"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5490, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.986+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.986+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559adc656e371534b8523f"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5923, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:32.994+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:32.994+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62559add656e371534b8524d"), 
+    "timeToExecute" : 1649777432830.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(5089, [[A: blue FA-18C_hornet(ol2) has killed red SA-11 Buk LN 9A310M1 with weapons.bombs.GBU_38[μ0.5](385 TempWarbonds)\n]], 10)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-04-12T15:29:33.006+0000"), 
+    "updatedAt" : ISODate("2022-04-12T15:29:33.006+0000"), 
+    "__v" : NumberInt(0)
+}

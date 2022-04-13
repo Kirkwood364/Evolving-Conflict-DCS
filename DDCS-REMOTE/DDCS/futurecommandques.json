@@ -1,0 +1,75 @@
+{ 
+    "_id" : ObjectId("62459774ace9161780bfc800"), 
+    "timeToExecute" : 1648727984465.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(9329, [[A: blue P-51D-30-NA(Emu 1-1) pilot is dead]], 5)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-03-31T11:58:44.496+0000"), 
+    "updatedAt" : ISODate("2022-03-31T11:58:44.496+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62459774ace9161780bfc806"), 
+    "timeToExecute" : 1648727984465.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(7368, [[A: blue P-51D-30-NA(Emu 1-1) pilot is dead]], 5)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-03-31T11:58:44.504+0000"), 
+    "updatedAt" : ISODate("2022-03-31T11:58:44.504+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62459774ace9161780bfc80b"), 
+    "timeToExecute" : 1648727984465.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(6659, [[A: blue P-51D-30-NA(Emu 1-1) pilot is dead]], 5)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-03-31T11:58:44.510+0000"), 
+    "updatedAt" : ISODate("2022-03-31T11:58:44.510+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62459774ace9161780bfc810"), 
+    "timeToExecute" : 1648727984465.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(7348, [[A: blue P-51D-30-NA(Emu 1-1) pilot is dead]], 5)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-03-31T11:58:44.516+0000"), 
+    "updatedAt" : ISODate("2022-03-31T11:58:44.516+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("62459774ace9161780bfc818"), 
+    "timeToExecute" : 1648727984465.0, 
+    "actionObj" : {
+        "action" : "CMD", 
+        "cmd" : [
+            "trigger.action.outTextForGroup(8073, [[A: синие P-51D-30-NA(Emu 1-1) летчик погиб]], 5)"
+        ], 
+        "reqID" : NumberInt(0)
+    }, 
+    "queName" : "frontEnd", 
+    "createdAt" : ISODate("2022-03-31T11:58:44.527+0000"), 
+    "updatedAt" : ISODate("2022-03-31T11:58:44.527+0000"), 
+    "__v" : NumberInt(0)
+}

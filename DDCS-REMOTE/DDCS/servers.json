@@ -1,0 +1,323 @@
+{ 
+    "_id" : "DrexMainServer", 
+    "updatedAt" : ISODate("2022-04-12T15:29:43.820+0000"), 
+    "createdAt" : ISODate("2022-03-08T02:09:32.555+0000"), 
+    "ip" : "192.168.44.61", 
+    "inGameHitMessages" : true, 
+    "DCSLogFileLocation" : "C:/Users/andre/Saved Games/DCS.openbeta_server/Logs/dcs.log", 
+    "SRSFilePath" : "\"\"", 
+    "isDiscordAllowed" : true, 
+    "curTimer" : 0.0, 
+    "isServerUp" : false, 
+    "isDiscordOnline" : false, 
+    "restartTime" : 18000.0, 
+    "fullServerRestartOnCampaignWin" : true, 
+    "resetFullCampaign" : false, 
+    "guildedSubGroups" : [
+
+    ], 
+    "campaignRotation" : [
+        "DDCS-Modern-CA", 
+        "DDCS-Modern-Syria"
+    ], 
+    "campaignRotationCategory" : "\"\"", 
+    "currentCampaignId" : "DDCS-Modern-Syria", 
+    "discordWebHookURL" : "https://discord.com/api/webhooks/882974220290760725/xoDxB7fhuH6KNaF6-uGTumjUTudxmGMw2-SbzSVwIpnXAPYxxnaVB5RFJn3vSpFgcNON", 
+    "maxAllowedServerKicks" : 3.0, 
+    "maxAllowedSpectatorSlotKicks" : 3.0, 
+    "discordCurrentOnlineVoice" : {
+        "Kirkwood#8591" : {
+            "id" : "219105349834113026", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : NumberInt(0), 
+            "username" : "Kirkwood", 
+            "discriminator" : "8591", 
+            "avatar" : "c703245658c6dbd71b13d36a9a0dcd3f", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : "🥦", 
+            "currentChannel" : "secret-coms"
+        }, 
+        "chandawg#3588" : {
+            "id" : "330154779588427776", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "chandawg", 
+            "discriminator" : "3588", 
+            "avatar" : "e0e7c84296381b3c9e26691f739d253c", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Black Falcon#8685" : {
+            "id" : "479465366616014849", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : NumberInt(0), 
+            "username" : "Black Falcon", 
+            "discriminator" : "8685", 
+            "avatar" : "59f49577ed231ede87314ae155d5cf95", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "ItAg Dax#2267" : {
+            "id" : "500319604296646657", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "ItAg Dax", 
+            "discriminator" : "2267", 
+            "avatar" : "05ad987b6d0767ceb65b97d58bd1a6fc", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Shoam2B#3442" : {
+            "id" : "140215179882397696", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Shoam2B", 
+            "discriminator" : "3442", 
+            "avatar" : null, 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Amox#0544" : {
+            "id" : "481946780511109121", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Amox", 
+            "discriminator" : "0544", 
+            "avatar" : "c4c89cfadcb0cd430f349288b19052ec", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Bell407#3200" : {
+            "id" : "356387334909984768", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Bell407", 
+            "discriminator" : "3200", 
+            "avatar" : "b0318defc4b58386ccc717a829b63d76", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : "Bell407", 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "-CML-Schoff#3572" : {
+            "id" : "95208379806384128", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : NumberInt(0), 
+            "username" : "-CML-Schoff", 
+            "discriminator" : "3572", 
+            "avatar" : "a746ffae5f089e4735a68ad495ba59cd", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Lez#5675" : {
+            "id" : "150439181884194816", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Lez", 
+            "discriminator" : "5675", 
+            "avatar" : "7bee039099004e4e77c2a7527396c333", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔴GCI (Relaxed Brevity)"
+        }, 
+        "Matt0!#2517" : {
+            "id" : "230303841692680192", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : NumberInt(0), 
+            "username" : "Matt0!", 
+            "discriminator" : "2517", 
+            "avatar" : "f69c3444986ed561b89b474d3dc1547e", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "UhOh#4721" : {
+            "id" : "323139662912684033", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "UhOh", 
+            "discriminator" : "4721", 
+            "avatar" : "39e3473dcd032f33ecdc7858a99ad925", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : "Magma", 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "verdasriuba#4436" : {
+            "id" : "561953047065001985", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "verdasriuba", 
+            "discriminator" : "4436", 
+            "avatar" : null, 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "Lenny#0732" : {
+            "id" : "702762972426272809", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Lenny", 
+            "discriminator" : "0732", 
+            "avatar" : null, 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : "Blade", 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "Drip#1294" : {
+            "id" : "495931480971804672", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Drip", 
+            "discriminator" : "1294", 
+            "avatar" : "a684e231efcf2a9c3556d84c29a009ed", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "《GLS》ヅAngelOfDeath#6794" : {
+            "id" : "261891666317672459", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : NumberInt(0), 
+            "username" : "《GLS》ヅAngelOfDeath", 
+            "discriminator" : "6794", 
+            "avatar" : "50cd785ce70e4ae4e494cc97053643b8", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "Wolfy#9660" : {
+            "id" : "343410182635913216", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Wolfy", 
+            "discriminator" : "9660", 
+            "avatar" : "298b782daf255beb65ef1000c59be806", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "=DDCS= pumpkinpie#4033" : {
+            "id" : "450262944190562314", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "=DDCS= pumpkinpie", 
+            "discriminator" : "4033", 
+            "avatar" : "3ed7c0f09059511918a259a2aa6bb4c8", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }, 
+        "Jester#3116" : {
+            "id" : "276921487808528384", 
+            "bot" : false, 
+            "system" : false, 
+            "flags" : null, 
+            "username" : "Jester", 
+            "discriminator" : "3116", 
+            "avatar" : "fb19ec6980180a47728d110ac8dd69eb", 
+            "banner" : null, 
+            "accentColor" : null, 
+            "nickName" : null, 
+            "currentChannel" : "🔵GCI (Relaxed Brevity)"
+        }
+    }, 
+    "patreonLvl" : {
+        "Platinum Contributor" : [
+            "Callsign SUPA", 
+            "Maverick_45", 
+            "Cortam"
+        ], 
+        "Bronze Contributor" : [
+
+        ], 
+        "Plaid Contributor" : [
+
+        ], 
+        "Silver Contributor" : [
+            "Growler", 
+            "TWEAK_DEMON", 
+            "BigMongostyler", 
+            "Hera Vertigo", 
+            "Murdock", 
+            "Lez", 
+            "=DDCS= Bane 61", 
+            "zefto", 
+            "-CML-Schoff", 
+            "ZucchiniZhang", 
+            "Bin Chicken 1-1", 
+            "Expo"
+        ], 
+        "Gold Contributor" : [
+            "Hussar", 
+            "Hal"
+        ], 
+        "Ludicrous Contributor" : [
+
+        ]
+    }
+}
+{ 
+    "_id" : "serverTemplateRecord", 
+    "updatedAt" : ISODate("2022-03-08T02:09:32.555+0000"), 
+    "createdAt" : ISODate("2022-03-08T02:09:32.555+0000"), 
+    "ip" : "localhost", 
+    "inGameHitMessages" : true, 
+    "DCSLogFileLocation" : "", 
+    "SRSFilePath" : "", 
+    "isDiscordAllowed" : true, 
+    "curTimer" : 0.0, 
+    "isServerUp" : false, 
+    "isDiscordOnline" : false, 
+    "restartTime" : 21600.0, 
+    "timePeriod" : "modern", 
+    "fullServerRestartOnCampaignWin" : true, 
+    "resetFullCampaign" : false, 
+    "guildedSubGroups" : [
+
+    ], 
+    "campaignRotation" : [
+
+    ], 
+    "campaignRotationCategory" : "", 
+    "currentCampaignId" : ""
+}

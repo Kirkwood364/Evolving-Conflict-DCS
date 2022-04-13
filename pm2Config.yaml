@@ -1,0 +1,9 @@
+# pm2 stop|start|restart|reload|delete pm2.yaml # stop|start|restart|reload|delete all
+# example - pm2 start pm2Config.yaml
+# reload is a no downtime restart
+
+apps:
+
+  - name: DDCS
+    script: C:\Users\andre\DDCS\dist\start.js
+    automation: false

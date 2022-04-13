@@ -1,0 +1,89 @@
+dictionary = 
+{
+    ["DictKey_descriptionNeutralsTask_4"] = "",
+    ["DictKey_sortie_5"] = "",
+    ["DictKey_descriptionText_1"] = "Welcome To DDCS Modern Server.\
+\
+DISCORD: (Main COMS) https://discord.gg/JmzkbWA\
+\
+GUILDED: (website) https://www.guilded.gg/DDCS/\
+\
+SRS: srs.dynamicdcs.com:5002\
+\
+QUICK START: Choose your side in chat - get on discord coms - look at your f10 map or use your JTAC slot to find base ownership\
+\
+How to play: You must capture all the MOBs in Syria/Cypris except for Gazipasa, Gaziantep, King Hussein Air College, and Carrier Group. There are 2 types of bases MOBS and FOBS. Fobs are the line of farps/airfields without base defenses connecting to MOBS.\
+\
+Advanced weapons:Fox3s and GBU31V1/V3 available at Carrier, Ramat David, King Hussein Air College, Aleppo, Gazipasa, and Gaziantep\
+\
+Bases you are not allowed to attack is:\
+\
+Red  Gazipasa\
+Red  Gaziantep\
+\
+Blue  King Hussein\
+Blue  Carrier Group\
+\
+MOBS: You must destroy all enemy units and drive a unit of your team onto the base to capture.  Below is the list along with their respective starting side.\
+\
+1) Red   Aleppo\
+2) Red   Hatay\
+3) Red   Bassel Al Assad\
+4) Red   Tabqa\
+5) Red   Hama\
+6) Red   Palmyra\
+7) Red   Al Qusayr\
+\
+1) Blue  Wujar Al Hajar\
+2) Blue  An Nasiriyah\
+3) Blue  Khalkhalah\
+4) Blue  Ramat David\
+5) Blue  King Hussein Air College\
+6) Blue  Rayak\
+7) Blue  Kiryat Shmona \
+\
+Cyrpus also contains 4 MOBS\
+\
+Red   Gecitkale\
+Red   Pinarbashi\
+\
+Blue  Paphos\
+Blue  Akrotiri\
+\
+FOBS: you must destroy the enemy shelter and replace it with your own using the base repair radio menu option. You can pick-up a base repair from any friendly base that has a shelter.\
+Slingable Units: Slingers can unpack crates 8x and you'll get access to Tactical Commander slots for life.\
+\
+Rules and tutorials are available on Discord and Guilded. Smart weapons cannot be used to disable taxiways,ramps, and runways. You are not allowed to bypass/Skip MOBS. You are not allowed to attack the blue carrier, Gazipasa, and Gaziantep.\
+\
+-Tactical CMDR Role: you must unpack crates 8 times.\
+\
+Requirements to play on DDCS Modern Server\
+-You're in-game name must match your guilded/discord name exactly\
+\
+WARNING!!!!! If you spawn with your engines running taxi immediatly for the next guy who will spawn in that location.\
+\
+MAGIC_IFF",
+    ["DictKey_descriptionBlueTask_3"] = "Fox 3s available at: Carrier and Ramat David\
+\
+M2000 available at most MOBs. TAF enabled on M2000 that spawn in King Hussein\
+\
+Awacs Freqs:\
+Gaziantep 124.1\
+Tabqa 124.2\
+Ramat David 124.4\
+H4 124.3\
+EWR: 254\
+\
+CVN72 USS Abraham Lincoln     TCN 72     ICLS 1    127.50 AM\
+CVN74 USS John C Stennis          TCN 74     ICLS 2   131.50AM",
+    ["DictKey_descriptionRedTask_2"] = "Fox 3s available at: Gazipasa, Gaziantep, and Aleppo\
+\
+Mig29s available at most MOBs\
+\
+Awacs Freqs:\
+Gaziantep 124.1\
+Tabqa 124.2\
+Ramat David 124.4\
+H4 124.3\
+EWR: 124",
+} -- end of dictionary
