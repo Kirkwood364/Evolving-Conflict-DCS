@@ -1,9 +1,0 @@
-{ 
-    "_id" : "DDCSModernCaucasus_1642677394000", 
-    "totalMinutesPlayed_blue" : NumberInt(0), 
-    "totalMinutesPlayed_red" : NumberInt(0), 
-    "name" : "DDCSModernCaucasus_1642677394000", 
-    "createdAt" : ISODate("2022-01-20T11:16:36.257+0000"), 
-    "updatedAt" : ISODate("2022-03-31T11:56:05.529+0000"), 
-    "__v" : NumberInt(0)
-}
