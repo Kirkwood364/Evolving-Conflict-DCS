@@ -1,4 +1,4 @@
-Evolving Conflict DCS 
+# Evolving Conflict DCS 
 
 This project is a fork of the original DDCS engine v4.2 built by Drex along with contributions & bugfixes by myself, Swooperduper, Red Teufel & REPTAR. My intention with this project is to continue with the direction of DDCS myself and others had forseen when I originally wrote all of the code for the Warbonds system, ground unit loading mechanics prior to Drex returning to the DDCS project and taking it in his own direction.
 
@@ -6,8 +6,8 @@ Below are notes from the original project, please also consider support the orig
 
 I will provide my own support link to help with server costs once it is up and running, all donation will be spent on the server up-keep costs with any additional going to support the comminity in the forms of prizes(modules & hardware).
 
-# DDCS 4.2
-## Dynamic DCS System for Controlling DCS Servers
+DDCS 4.2
+Dynamic DCS System for Controlling DCS Servers
 The Dynamic DCS engine is built on externally written software from the ground up to offload all the process's from the DCS server to allow for unique game play using nodeJS and mongoDB for asynchronous processing and decision making.
 The server then, syncs to it through lua sockets and it compiles commands to send back, essentially freeing up massive amounts of overhead for the server to do what it needs to do.<br>
 
