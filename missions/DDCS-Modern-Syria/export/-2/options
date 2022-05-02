@@ -29,7 +29,7 @@ options =
         ["optionsView"] = "optview_myaircraft",
         ["setGlobal"] = false,
         ["avionicsLanguage"] = "english",
-        ["cockpitVisualRM"] = true,
+        ["cockpitVisualRM"] = false,
         ["map"] = true,
         ["spectatorExternalViews"] = false,
         ["userSnapView"] = true,
@@ -60,7 +60,7 @@ options =
     ["VR"] = 
     {
         ["custom_IPD_enable"] = false,
-        ["box_mouse_cursor"] = true,
+        ["box_mouse_cursor"] = false,
         ["use_mouse"] = false,
         ["mirror_use_DCS_resolution"] = false,
         ["hand_controllers_use_throttle"] = true,
@@ -81,7 +81,7 @@ options =
     {
         ["messagesFontScale"] = 1,
         ["forestDetailsFactor"] = 1,
-        ["rainDroplets"] = true,
+        ["rainDroplets"] = false,
         ["LensEffects"] = 0,
         ["box_mouse_cursor"] = false,
         ["anisotropy"] = 4,
@@ -127,7 +127,7 @@ options =
         }, -- end of ["Su-25T"]
         ["MiG-15bis"] = 
         {
-            ["autoLeanToAimMiG15"] = true,
+            ["autoLeanToAimMiG15"] = false,
             ["CPLocalList"] = "english",
             ["gunCamera"] = 0,
             ["aiHelper"] = false,
@@ -234,7 +234,7 @@ options =
             ["AB_GATE"] = false,
             ["JESTER_SwitchToPSTT"] = true,
             ["TID_A2G"] = false,
-            ["WEAP_OFF_GUN"] = false,
+            ["WEAP_OFF_GUN"] = true,
             ["WEAP_UP_SPPH"] = false,
             ["EXT_LIGHT_CATAPULT"] = true,
             ["JESTER_Camera"] = true,
@@ -289,7 +289,7 @@ options =
         ["AV8BNA"] = 
         {
             ["INS_Alignment"] = 2,
-            ["INS_GYROHasNAV"] = true,
+            ["INS_GYROHasNAV"] = false,
             ["CPLocalList"] = "default",
             ["USE_REAL_TDC"] = false,
             ["MPCD_EXPORT"] = false,
@@ -304,8 +304,8 @@ options =
             ["Mi24TrimmingMethod"] = 0,
             ["Mi24RudderTrimmer"] = false,
             ["controlHelperMi24"] = false,
-            ["Mi24AutoHandover"] = true,
-            ["weapTooltipsMi24"] = true,
+            ["Mi24AutoHandover"] = false,
+            ["weapTooltipsMi24"] = false,
         }, -- end of ["Mi-24P"]
         ["FW-190D9"] = 
         {
@@ -471,7 +471,7 @@ options =
             ["PROG01FLI"] = 2,
             ["PROG04TYPE"] = 1,
             ["PROG01CHR"] = 3,
-            ["TDC_DEADZONE"] = 0.01,
+            ["TDC_DEADZONE"] = 0.02,
             ["PROG05CHN"] = 4,
             ["PROG03CHR"] = 1,
             ["PROG05FLN"] = 4,
@@ -533,10 +533,10 @@ options =
         }, -- end of ["F-16C"]
         ["F-86F"] = 
         {
-            ["landSeatAdjustF86"] = true,
+            ["landSeatAdjustF86"] = false,
             ["aiHelper"] = false,
             ["CPLocalList"] = "default",
-            ["NoseWheelSteeringSimpleBehaviourF86"] = true,
+            ["NoseWheelSteeringSimpleBehaviourF86"] = false,
             ["gunCamera"] = 0,
         }, -- end of ["F-86F"]
         ["Ka-50"] = 
@@ -595,7 +595,7 @@ options =
     {
         ["main_output"] = "",
         ["FakeAfterburner"] = true,
-        ["volume"] = 100,
+        ["volume"] = 37,
         ["headphones_on_external_views"] = true,
         ["subtitles"] = true,
         ["world"] = 100,

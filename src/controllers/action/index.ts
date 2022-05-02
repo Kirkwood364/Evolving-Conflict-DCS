@@ -21,3 +21,4 @@ export * from "./strategicbase";
 export * from "./playerCommands";
 export * from "./bubbleMap";
 export * from "./caPlayerLock";
+export * from "./weatherTimeUpdate";

@@ -1293,7 +1293,9 @@ export async function spawnSupportPlane(baseObj: typing.ICampaignAirfield, side:
         curSpwnUnit = _.cloneDeep(getRndFromSpawnCat("transportHeli", side, true, true)[0]);
         remoteLoc = ddcsControllers.getLonLatFromDistanceDirection(baseLoc, randomDir, 40);
     } else {
-        if (engineCache.campaign.heliOnlyResupply) {
+        if (engineCache.campaign.
+            bubbleMap[_.toString(engineCache.campaign.currentCampaignBubble)].polygonLoc[baseObj._id].defaults.heliOnlySupply === "true") {
+        // if (engineCache.campaign.heliOnlyResupply) {
             curSpwnUnit = _.cloneDeep(getRndFromSpawnCat("transportHeli", side, true, true)[0]);
             remoteLoc = ddcsControllers.getLonLatFromDistanceDirection(baseLoc, randomDir, 40);
         } else {
@@ -1586,59 +1588,57 @@ export async function spawnUnitGroup(spawnArray: typing.IUnitSpawnMin[], init: b
 }
 
 export async function spawnNewMapObjs(isStaticSpawn: boolean): Promise<void> {
-    const bases = await ddcsControllers.campaignAirfieldActionRead({_id: {$not: /#/}, enabled: true, defaultStartSide : { $ne : 0 } });
+    const bases = await ddcsControllers.campaignAirfieldActionRead(
+        {$and: [{_id: {$not: /#/}}, {_id: {$not: /^~/}}], enabled: true, defaultStartSide : { $ne : 0 } });
     // console.log("bases", bases.map((x) => x._id));
     for (const base of bases) {
         // console.log("Spawn Airfield: ", base._id);
-        if (!_.includes(base._id, "Carrier")) {
-            const baseStartSide = base.defaultStartSide || 0;
-
-            // ALL BASE ITEMS
-            // command center
-            // console.log("VARS: ", isStaticSpawn, baseStartSide, base);
-            if (isStaticSpawn) {
-                await ddcsControllers.spawnStaticBaseBuilding({} as typing.IStaticSpawnMin, true, base, baseStartSide, "Shelter");
-                if (base.baseType === "MOB") {
-                    await ddcsControllers.spawnStaticBaseBuilding({} as typing.IStaticSpawnMin, true, base, baseStartSide, "Comms tower M");
-                }
-            } else {
-                await spawnSupportBaseGrp(base._id, baseStartSide, true);
-                if (base.baseType === "MOB") {
-                    await spawnSAMNet(baseStartSide, base._id, true);
-                    let totalUnitNum = 0;
-                    while (totalUnitNum < ddcsControllers.getEngineCache().campaign.replenThresholdBase) {
-                        totalUnitNum += await spawnBaseReinforcementGroup(baseStartSide, base._id, true, true);
-                        console.log(base._id, " spawned ", totalUnitNum, " units, threshold: ",
-                            ddcsControllers.getEngineCache().campaign.replenThresholdBase);
-                    }
+        const baseStartSide = base.defaultStartSide || 0;
+        // ALL BASE ITEMS
+        // command center
+        // console.log("VARS: ", isStaticSpawn, baseStartSide, base);
+        if (isStaticSpawn) {
+            await ddcsControllers.spawnStaticBaseBuilding({} as typing.IStaticSpawnMin, true, base, baseStartSide, "Shelter");
+            if (base.baseType === "MOB") {
+                await ddcsControllers.spawnStaticBaseBuilding({} as typing.IStaticSpawnMin, true, base, baseStartSide, "Comms tower M");
+            }
+        } else {
+            await spawnSupportBaseGrp(base._id, baseStartSide, true);
+            if (base.baseType === "MOB") {
+                await spawnSAMNet(baseStartSide, base._id, true);
+                let totalUnitNum = 0;
+                while (totalUnitNum < ddcsControllers.getEngineCache().campaign.replenThresholdBase) {
+                    totalUnitNum += await spawnBaseReinforcementGroup(baseStartSide, base._id, true, true);
+                    console.log(base._id, " spawned ", totalUnitNum, " units, threshold: ",
+                        ddcsControllers.getEngineCache().campaign.replenThresholdBase);
                 }
             }
+        }
 
-            /*
-            await spawnSupportBaseGrp(baseName, baseStartSide);
-            if (_.get(base, "baseType") === "MOB") {
-                while (spawnArray.length + totalUnitNum < curServer.replenThresholdBase) { // UNCOMMENT THESE
-                    totalUnitNum += await spawnBaseReinforcementGroup(baseStartSide, baseName, true, true);
-                }
-                await spawnSAMNet(baseStartSide, baseName, true);
-                totalUnitNum += 3;
-                await spawnRadioTower(
-                    {},
-                    true,
-                    _.find(engineCache.bases, { name: baseName } ),
-                    baseStartSide
-                );
+        /*
+        await spawnSupportBaseGrp(baseName, baseStartSide);
+        if (_.get(base, "baseType") === "MOB") {
+            while (spawnArray.length + totalUnitNum < curServer.replenThresholdBase) { // UNCOMMENT THESE
+                totalUnitNum += await spawnBaseReinforcementGroup(baseStartSide, baseName, true, true);
             }
-            await spawnUnitGroup(spawnArray, baseName, baseStartSide);
-            await spawnLogisticCmdCenter(
+            await spawnSAMNet(baseStartSide, baseName, true);
+            totalUnitNum += 3;
+            await spawnRadioTower(
                 {},
                 true,
-                _.find(engineCache.bases, {name: baseName}),
+                _.find(engineCache.bases, { name: baseName } ),
                 baseStartSide
             );
-            totalUnitsSpawned += spawnArray.length + totalUnitNum + 1;
-             */
         }
+        await spawnUnitGroup(spawnArray, baseName, baseStartSide);
+        await spawnLogisticCmdCenter(
+            {},
+            true,
+            _.find(engineCache.bases, {name: baseName}),
+            baseStartSide
+        );
+        totalUnitsSpawned += spawnArray.length + totalUnitNum + 1;
+         */
     }
 }
 

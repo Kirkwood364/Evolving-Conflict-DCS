@@ -1217,7 +1217,7 @@ export function setUpDefaultMissionFile(curMainMissionFile: any, unitsByCountry:
                 permitCrash: false,
                 immortal: false,
                 cockpitStatusBarAllowed: false,
-                cockpitVisualRM: true,
+                cockpitVisualRM: false,
                 easyFlight: false,
                 labels: false,
                 radio: false,

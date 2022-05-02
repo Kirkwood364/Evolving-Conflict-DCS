@@ -170,7 +170,9 @@ export async function srvPlayerActionsAddWarbonds(
                     // console.log("serverObj[0].warbonds:", serverObj[0].warbonds, "\n", "serverObj[0]:", serverObj[0]);
                     const curTotalPoints: number = Math.round(curPlayerWarbonds) + Math.round(addPoints) + Math.round(curStrategicIncome);
                     let message: string;
-                    console.log("Adding Warbonds to ", player.name, " for ", execAction, " points: ", addPoints, "/", curTotalPoints);
+                    if (execAction !== "PeriodicAdd") {
+                        console.log("Adding Warbonds to ", player.name, " for ", execAction, " points: ", addPoints, "/", curTotalPoints);
+                    }
                     if (serverObj.length > 0) {
                         let setObj: {
                             warbonds: number;

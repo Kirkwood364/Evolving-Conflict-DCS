@@ -418,7 +418,7 @@ export async function checkForNeutralStrategicPoints() {
     for (const strategicPoint of strategicPoints) {
         const unitInternal = await ddcsControllers.unitActionRead({_id: new RegExp(strategicPoint._id + "_MAIN"), dead: false});
         if (unitInternal.length === 0 && strategicPoint.markId.length > 0) {
-            console.log("Clearing strategic marker for ", strategicPoint._id);
+            // console.log("Clearing strategic marker for ", strategicPoint._id);
             for (const mark of strategicPoint.markId) {
                 await ddcsControllers.removeMark(mark);
             }
@@ -449,9 +449,9 @@ export async function getStrategicIncome(): Promise<any> {
             });
             if (strategicUnits.length > 0) {
                 if (point.details && point.details.strategicPointOptions && point.details.strategicPointOptions.split("-")[0]) {
-                    console.log("Strategic Point: " + point._id + " Adding Warbond: " +
-                        point.details.strategicPointOptions.split("-")[0] + " * " + strategicUnits.length);
-                    strategicIncome[strategicUnits[0].coalition].income +=
+                    // console.log("Strategic Point: " + point._id + " Adding Warbond: " +
+                    //    point.details.strategicPointOptions.split("-")[0] + " * " + strategicUnits.length);
+                     strategicIncome[strategicUnits[0].coalition].income +=
                         (strategicUnits.length * point.details.strategicPointOptions.split("-")[0]);
                 }
             }

@@ -11,6 +11,61 @@ const redLaserCode = 1686;
 const blueLaserCode = 1687;
 const fiveMins = 5 * 60 * 1000;
 
+export async function processBaseMobLos(
+    incomingObj: any,
+    reqId: any,
+    reqArgs: any
+) {
+    // console.log("replyBaseLos: ", incomingObj, reqArgs);
+    for (const visibleUnitName of incomingObj.returnObj) {
+        console.log("Base Smoke: ", visibleUnitName);
+        await ddcsControllers.sendUDPPacket("frontEnd", {
+            actionObj: {
+                action: "setSmoke",
+                enemyUnitName: visibleUnitName,
+                coalition: reqArgs.baseSide,
+                reqID: 0
+            }
+        });
+    }
+}
+
+export async function smokeBaseLosOnMob() {
+    const engineCache = ddcsControllers.getEngineCache();
+    const mainBaseMOBs = await ddcsControllers.campaignAirfieldActionRead({baseType: "MOB", _id: { $not: /^~/ }, enabled: true});
+    for (const base of mainBaseMOBs) {
+        const curBaseDictionary = engineCache.airfieldDictionary.find((bd: { _id: any; }) => bd._id === base._id);
+        const enemySide = ddcsControllers.enemySide[base.side];
+        const enemyUnits = await ddcsControllers.
+        getCoalitionGroundUnitsInProximity(base.centerLoc, engineCache.campaign.baseSpotDistance, enemySide);
+        const enemyUnitNameArray: string[] = _.map(enemyUnits, "name").slice(0, _.random(2, 6));
+        if (enemyUnitNameArray.length > 0) {
+            // console.log("checkMobLos: ", enemyUnitNameArray, curBaseDictionary);
+            const curNextUniqueId = ddcsControllers.getNextUniqueId();
+            ddcsControllers.setRequestJobArray({
+                reqId: curNextUniqueId,
+                callBack: "processBaseMobLos",
+                reqArgs: {
+                    baseSide: base.side
+                }
+            }, curNextUniqueId);
+            await ddcsControllers.sendUDPPacket("frontEnd", {
+                actionObj: {
+                    action: "processXyzLos",
+                    baseXYZ: {
+                        x: curBaseDictionary.mapLoc.x,
+                        y: curBaseDictionary.alt + 5,
+                        z: curBaseDictionary.mapLoc.y
+                    },
+                    enemyUnitNames: enemyUnitNameArray,
+                    reqID: curNextUniqueId,
+                    time: new Date()
+                }
+            });
+        }
+    }
+}
+
 export async function baseDefenseDetectSmoke() {
     const engineCache = ddcsControllers.getEngineCache();
     const mainBaseMOBs = await ddcsControllers.campaignAirfieldActionRead({baseType: "MOB", _id: { $not: /^~/ }, enabled: true});

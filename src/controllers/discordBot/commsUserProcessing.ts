@@ -50,7 +50,7 @@ export async function kickToSpectatorForNoCommJtac() {
                             console.log("Player is not in comms: ", player.name, currentName, currentNick);
                             await ddcsControllers.forcePlayerSpectator(
                                 player.id,
-                                "Your name in discord has to match your name in game to occupy JTAC/Operator or Tactical cmdr slots"
+                                "You must be in a discord voice channel and your name in discord has to match your name in game to occupy JTAC/Operator or Tactical cmdr slots"
                             );
                         }
                     }

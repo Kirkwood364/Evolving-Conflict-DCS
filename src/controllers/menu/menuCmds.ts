@@ -1058,6 +1058,35 @@ export async function menuCmdProcess(pObj: any) {
                     console.log("reclaimAcquisitions: ", curUnit._id, curPlayer.name);
                     await ddcsControllers.reclaimInactiveAcquisitions(curUnit, curPlayer);
                     break;
+                case "recycleUnits":
+                    if (curUnit.speed > 0.3) {
+                        await ddcsControllers.sendMesgToGroup(
+                            curPlayer,
+                            curUnit.groupId,
+                            "G: You must be stationary before you can run this command",
+                            5
+                        );
+                    } else {
+                        console.log("recycleUnits: ", curUnit._id, curPlayer.name);
+                        const unitsNearby = await ddcsControllers.getGroundUnitsInProximity(curUnit.lonLatLoc, 0.05, false);
+                        if(unitsNearby.length > 0){
+                            await ddcsControllers.sendMesgToGroup(
+                                curPlayer,
+                                curUnit.groupId,
+                                "G: Recycling nearby unit, please remain still, this will take around 60 seconds.",
+                                5
+                            );
+                            setTimeout(() => {stationaryCommand(curUnit,curPlayer,"recycleUnits");}, 60000);
+                        }else{
+                            await ddcsControllers.sendMesgToGroup(
+                                curPlayer,
+                                curUnit.groupId,
+                                "G: There are no units within 50m.",
+                                5
+                            );
+                        }                        
+                    }                    
+                    break;
             }
         }
     }
@@ -2921,6 +2950,33 @@ export async function unloadPackedUnit(curUnit: any, curPlayer: any) {
         }
     }
 }
+
+//New templace for commands that require players to be stationary throughout its action
+export async function stationaryCommand(curUnit: any, curPlayer: any, finalCommand:any) {
+    const units = await ddcsControllers.unitActionRead({playername: curPlayer.name, dead: false});
+    if (units[0]) {
+        const deltaAGL = Math.abs(curUnit.agl - units[0].agl);
+        const lonLatStart = curUnit.lonLatLoc;
+        const lonLatEnd = units[0].lonLatLoc;
+        const distanceMovedXZ = ddcsControllers.calcDirectDistanceInKm(lonLatStart[1], lonLatStart[0], lonLatEnd[1], lonLatEnd[0]) * 1000;
+        if (distanceMovedXZ > 1 || deltaAGL > 1 || units[0].dead) {
+            await ddcsControllers.sendMesgToGroup(
+                curPlayer,
+                curUnit.groupId,
+                "G: You moved while attempting to use this command, please try again and remain stationary",
+                5
+            );
+        } else {
+            switch(finalCommand){
+                //Add cases under here for new commands which require the player to be stationary
+                case "recycleUnits":
+                    await ddcsControllers.recycleUnit(curUnit);
+                    break;
+            }
+        }
+    }
+}
+
 /*export async function spawnStaticObject(){
     let spawnObj = {
         _id: curName,

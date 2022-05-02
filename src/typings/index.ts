@@ -159,6 +159,7 @@ export interface IUnitDictionary {
     LPCost: number;
     name: string;
     warBondCost: number;
+    warbondCost: number;
 }
 
 export interface IWeaponDictionary {
@@ -836,7 +837,6 @@ export interface IMenuCommand {
 }
 
 export interface IStrategicPoint {
-    markId: number[];
     _id: string;
     enabled: boolean;
     strategicType: string;
@@ -845,4 +845,59 @@ export interface IStrategicPoint {
     polygonPoints: any;
     polygonPointsXY: any;
     details: any;
+    markId: number[];
+}
+
+export interface IWeather {
+    _id: string;
+    enabled: boolean;
+    start_time: number;
+    date: {
+        Year: number;
+        Day: number;
+        Month: number;
+    };
+    weather: {
+        atmosphere_type: number;
+        wind: {
+            at8000: {
+                speed: number;
+                dir: number;
+            },
+            atGround: {
+                speed: number;
+                dir: number;
+            },
+            at2000: {
+                speed: number;
+                dir: number;
+            }
+        },
+        enable_fog: boolean;
+        groundTurbulence: number;
+        visibility: {
+            distance: number;
+        },
+        season: {
+            temperature: number;
+        },
+        type_weather: number;
+        modifiedTime: boolean;
+        cyclones: {},
+        name: string;
+        fog: {
+            thickness: number;
+            visibility: number;
+        },
+        qnh: number;
+        dust_density: number;
+        enable_dust: boolean;
+        clouds: {
+            thickness: number;
+            density: number;
+            preset: string;
+            base: number;
+            iprecptns: number;
+        }
+    };
 }

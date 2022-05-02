@@ -9,6 +9,8 @@ import {getPlayerBalance} from "../../";
 // bring this into the server configs, remove the hardcode
 export const maxPlayersPerSide = 30;
 
+export let currentMissionFilename: string;
+
 export let rtPlayerArray: any;
 
 export let banArray: string[] = [];
@@ -32,6 +34,14 @@ export function getRTPlayerArray() {
     return rtPlayerArray;
 }
 
+export function setMissionFilename(missionFilename: string) {
+    currentMissionFilename = missionFilename;
+}
+
+export function getMissionFilename() {
+    return currentMissionFilename;
+}
+
 export function setBanArray(curBanArray: string[]) {
     banArray = curBanArray;
 }
@@ -41,6 +51,7 @@ export function getBanArray() {
 }
 
 export async function updateCurrentRunningCampaign(missionFilename: string) {
+    ddcsControllers.setMissionFilename(missionFilename);
     const engineCache = ddcsControllers.getEngineCache();
     if (missionFilename !== "") {
         const missionArray = missionFilename.split("_");

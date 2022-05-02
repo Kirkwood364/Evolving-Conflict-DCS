@@ -4,21 +4,18 @@
 
 import * as _ from "lodash";
 import * as ddcsControllers from "../";
+import {destroyStaticCratesInProximityOfPoint, unitActionRead} from "../";
 
 export async function processUnitUpdates(unitObj: any): Promise<void> {
-    /*
+/*
     if (unitObj.data.unitId > 0) {
         console.log("incoming: ", unitObj.action, unitObj.data.unitId, unitObj.data.name);
-    }
-
-    if (_.includes(unitObj.data.name, "Shelter")) {
-        // console.log("ShelterProcess: ", unitObj);
     }
 
     if (unitObj.data.unitCategory === ddcsControllers.UNIT_CATEGORY("STRUCTURE")) {
         console.log("STRUCT: ", unitObj);
     }
-*/
+ */
     const unit = await ddcsControllers.unitActionRead({_id: unitObj.data.name});
     let stParse;
     let iCurObj: any;
@@ -58,6 +55,14 @@ export async function processUnitUpdates(unitObj: any): Promise<void> {
     if (unit.length > 0) {
         const curUnit = unit[0];
         const curUnitName = curUnit.name;
+
+        if (_.includes(unitObj.data.name, "Shelter")) {
+            // console.log("Shelter Action: ", unitObj, curUnit);
+            // shelter create or destroy, destroy all crates within X distance of shelter
+            if (curUnit.lonLatLoc) {
+                await ddcsControllers.destroyStaticCratesInProximityOfPoint(curUnit.lonLatLoc);
+            }
+        }
 
         // update location of carrier in aircraft DB
         if (curData && curData.type && (_.includes(curData.type, "CVN_72") || _.includes(curData.type, "LHA_Tarawa") ||

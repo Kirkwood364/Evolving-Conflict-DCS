@@ -1,5 +1,6 @@
 import * as ddcsControllers from "../";
 import * as _ from "lodash";
+import * as typing from "../../typings";
 import { ISrvPlayers } from "src/typings";
 import { engineCache } from "../constants";
 
@@ -75,4 +76,67 @@ export async function grantKudos(curPly: ISrvPlayers, trgtPlayerName: string) {
 
 export async function restartIn(curRestartIn: number) {
     console.log("player restart in: ", curRestartIn);
+}
+
+
+export async function recycleUnit(unitCalling: typing.IUnit): Promise<boolean> {
+    const curPlayerArray = await ddcsControllers.srvPlayerActionsRead({name: unitCalling.playername});
+    const curPly = curPlayerArray[0];
+    const curEngineCache = ddcsControllers.getEngineCache();
+    const units = await ddcsControllers.getGroundUnitsInProximity(unitCalling.lonLatLoc, 0.2, false);
+    const closestUnit = _.filter(units, {coalition: unitCalling.coalition})[0];
+    // console.log("Closest Units", closestUnit);
+    if (closestUnit) {
+        const  nearestUnitGroup = await ddcsControllers.unitActionRead({groupName: closestUnit.groupName, isCrate: false, dead: false});
+        if (nearestUnitGroup.length) {
+            if (curPly._id === nearestUnitGroup[0].playerOwnerId) {
+                    let recycledAmount: number = 0;
+                    let recycledUnitsString: string = "";
+                    for (const unit of nearestUnitGroup) {
+                        // @ts-ignore
+                        const unitDict: typing.IUnitDictionary = _.find(engineCache.unitDictionary, {type : unit.type});
+                        await ddcsControllers.destroyUnit(unit.name, unit.type);
+                        if (unitDict) {
+                            recycledUnitsString += unit.type + "(" + Math.round(unitDict.warbondCost / 2) + "),";
+                            recycledAmount += Math.round(unitDict.warbondCost / 2);
+                        }}                        
+                    await ddcsControllers.sendMesgToGroup(
+                        curPly,
+                        unitCalling.groupId,
+                        "G: You have recycled " + recycledUnitsString + " returning you a total of " + recycledAmount + " Warbonds.",
+                        5
+                    );
+                    await ddcsControllers.srvPlayerActionsAddWarbonds(
+                        curPly,
+                        unitCalling,
+                        recycledAmount
+                    );                    
+            } else {
+                await ddcsControllers.sendMesgToGroup(
+                    curPly,
+                    unitCalling.groupId,
+                    "G: You do not own this unit so cannot recycle it",
+                    5
+                );
+                return false;
+            }
+        } else {
+            await ddcsControllers.sendMesgToGroup(
+                curPly,
+                unitCalling.groupId,
+                "G: There are no unit groups within 20m to recycle",
+                5
+            );
+            return false;
+        }
+    } else {
+        await ddcsControllers.sendMesgToGroup(
+            curPly,
+            unitCalling.groupId,
+            "G: There are no unit groups within 20m to recycle",
+            5
+        );
+        return false;
+    }
+    return false;
 }

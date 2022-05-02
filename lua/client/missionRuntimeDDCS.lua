@@ -488,7 +488,7 @@ function runRequest(request)
                     local  cont = taskGroup:getController()
                     if cont ~= nil then
                         cont:setOnOff(true)
-                        cont:setOption(AI.Option.Ground.id.ALARM_STATE, AI.Option.Ground.val.ALARM_STATE.RED)
+                        cont:setOption(AI.Option.Ground.id.ALARM_STATE, AI.Option.Ground.val.ALARM_STATE.AUTO)
                         cont:setOption(AI.Option.Air.id.ROE, AI.Option.Air.val.ROE.WEAPON_FREE)
                     end
                 end
@@ -602,6 +602,29 @@ function runRequest(request)
             outObj.flagValue = flagValueNew
             outObj.action = "FlagValue"
             sendUDPPacket(outObj)
+        end
+
+        if request.action == "processXyzLos" then
+            if request.baseXYZ ~= nil then
+                local visableUnits = {}
+                if type(request.enemyUnitNames) == 'table' then
+                    for nIndex = 1, #request.enemyUnitNames do
+                        local curUnit = Unit.getByName(request.enemyUnitNames[nIndex])
+                        if curUnit ~= nil then
+                            local enemyPOS = curUnit:getPoint()
+                            local offsetEnemyPos = { x = enemyPOS.x, y = enemyPOS.y + 2.0, z = enemyPOS.z }
+                            local offsetJTACPos = { x = request.baseXYZ.x, y = request.baseXYZ.y + 2.0, z = request.baseXYZ.z }
+                            if land.isVisible(offsetEnemyPos, offsetJTACPos) then
+                                table.insert(visableUnits, request.enemyUnitNames[nIndex])
+                            end
+                        end
+                    end
+                    if request.reqID > 0 then
+                        outObj.returnObj = visableUnits
+                        sendUDPPacket(outObj)
+                    end
+                end
+            end
         end
 
         if request.action == "processLOS" then

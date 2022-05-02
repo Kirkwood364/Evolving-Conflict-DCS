@@ -197,29 +197,6 @@ function ddcs.onPlayerDisconnect(id, errorCode)
 	clients[id] = nil
 end
 
---only use for connects and disconnects
-function ddcs.onGameEvent(eventName,arg1,arg2,arg3,arg4)
-	if eventName == "connect" or eventName == "disconnect" then
-		local playerInfo = {};
-		if eventName == "connect" then
-			playerInfo = net.get_player_info(arg1)
-		else
-			if clients[id] ~= nil then
-				playerInfo = clients[id]
-			end
-		end
-
-		udpClient:send(JSON:encode({
-			["action"] = "game-"..eventName,
-			["playerID"] = arg1,
-			["name"] = arg2,
-			["playerSide"] = arg3,
-			["reason_code"] = arg4,
-			["playerInfo"] = playerInfo
-		}))
-	end
-end
-
 function ddcs.onChatMessage(message, from)
 	local playerInfo = net.get_player_info(from)
 	if playerInfo.ucid ~= nil then

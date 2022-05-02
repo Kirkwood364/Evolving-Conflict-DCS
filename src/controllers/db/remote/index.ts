@@ -9,3 +9,4 @@ export * from "./template";
 export * from "./menuCommand";
 export * from "./i18n";
 export * from "./campaignConfig";
+export * from "./weather";

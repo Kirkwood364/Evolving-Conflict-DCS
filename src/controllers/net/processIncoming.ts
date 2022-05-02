@@ -3,6 +3,7 @@ import * as ddcsController from "../";
 import {dbModels} from "../db/common";
 import * as typings from "../../typings";
 import {I18nResolver} from "i18n-ts";
+import {updateWeather} from "../";
 
 export async function processingIncomingData(incomingObj: any) {
     switch (incomingObj.action) {
@@ -142,12 +143,6 @@ export async function processingIncomingData(incomingObj: any) {
         case "disconnect":
             await ddcsController.processDisconnect(incomingObj);
             console.log("Player Disconnected:", incomingObj);
-            break;
-        case "game-connect":
-            console.log("Player game-connect:", incomingObj);
-            break;
-        case "game-disconnect":
-            console.log("Player game-disconnect:", incomingObj);
             break;
         case "change_slot":
             // console.log('CHANGE EVENT SLOT HAPPENED: ', queObj);

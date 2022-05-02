@@ -10,6 +10,7 @@ let currentSeconds = 0;
 let maxTime = 0;
 let messageTemplate;
 let args: any[] = [];
+let isRestartSet: boolean = false;
 
 export let timerObj = {
     tenHours: false,
@@ -224,8 +225,18 @@ export async function processTimer(serverSecs: number): Promise<void> {
         }
 
         // restart server
-        if (getCurSeconds() > getMaxTime() + ddcsController.time.oneMin) {
-            exports.restartServer();
+        if (!isRestartSet && (getCurSeconds() > (getMaxTime() + ddcsController.time.thirtySecs))) {
+            await ddcsController.shutdownDcs();
+            setTimeout(async () => {
+                await ddcsController.shutdownDcs();
+            }, ddcsController.time.thirtySecs);
+            setTimeout(async () => {
+                await ddcsController.updateWeather();
+            }, ddcsController.time.oneMin);
+            setTimeout(async () => {
+                await ddcsController.restartServer();
+            }, (ddcsController.time.oneMin + ddcsController.time.thirtySecs));
+            isRestartSet = true;
         } else {
             if (messageTemplate) {
                 await ddcsController.sendMesgToAll(messageTemplate, args, 20);

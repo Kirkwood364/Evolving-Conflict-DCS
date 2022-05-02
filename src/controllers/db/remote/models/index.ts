@@ -9,3 +9,4 @@ export * from "./menuCommands";
 export * from "./i18n";
 export * from "./campaignConfig";
 export * from "./airfieldDictionary";
+export * from "./weather";

@@ -158,8 +158,10 @@ export async function checkUnitsToBaseForCapture(): Promise<void> {
 }
 
 export function rotateArray(origArray: any) {
+    console.log("Rotating:  Old: ", origArray);
     const temp = origArray.shift();
     origArray.push(temp);
+    console.log("Rotating: New: ", origArray);
     return origArray;
 }
 
@@ -170,6 +172,7 @@ export async function loadNextBubbleOrNextCampaign(winningSide: string) {
         if (engCache.campaign.bubbleMap[_.toString(currentCampaignBubble - 1)] &&
             engCache.campaign.bubbleMap[_.toString(currentCampaignBubble - 1)].bubbleName) {
             // next bubble exists, load map
+            console.log("Blue Wins - Advancing current campaign bubble");
             await ddcsControllers.setNewMissionFile(engCache.config.currentCampaignId, currentCampaignBubble - 1);
             await ddcsControllers.sendMesgToAll(
                 "Campaign Bubble " + engCache.campaign.currentCampaignBubble + " Has been won by " + winningSide +
@@ -179,6 +182,7 @@ export async function loadNextBubbleOrNextCampaign(winningSide: string) {
             );
         } else {
             // campaign has been won by blue, load next campaign
+            console.log("Blue Wins - Loading New Campaign");
             await ddcsControllers.loadNewCampaign();
             await ddcsControllers.sendMesgToAll(
                 "Campaign Has Been WON by " + winningSide + ". Next Campaign " + engCache.config.campaignRotation[0] +
@@ -192,6 +196,7 @@ export async function loadNextBubbleOrNextCampaign(winningSide: string) {
         if (engCache.campaign.bubbleMap[_.toString(currentCampaignBubble + 1)] &&
             engCache.campaign.bubbleMap[_.toString(currentCampaignBubble + 1)].bubbleName) {
             // next bubble exists, load map
+            console.log("Red WIns - Advancing current campaign bubble");
             await ddcsControllers.setNewMissionFile(engCache.config.currentCampaignId, currentCampaignBubble + 1);
             await ddcsControllers.sendMesgToAll(
                 "Campaign Bubble " + engCache.campaign.currentCampaignBubble + " Has been won by " + winningSide +
@@ -201,6 +206,7 @@ export async function loadNextBubbleOrNextCampaign(winningSide: string) {
             );
         } else {
             // campaign has been won by red, load next campaign
+            console.log("Red Wins - Loading New Campaign");
             await ddcsControllers.loadNewCampaign();
             await ddcsControllers.sendMesgToAll(
                 "Campaign Has Been WON by " + winningSide + ". Next Campaign " + engCache.config.campaignRotation[0] +
@@ -216,9 +222,11 @@ export async function loadNewCampaign() {
     const engCache = ddcsControllers.getEngineCache();
     if (engCache.config.campaignRotation && engCache.config.campaignRotation.length > 1) {
         const newCampaignArray = rotateArray(engCache.config.campaignRotation);
+        console.log("New Rotated Array: " + newCampaignArray + " loading new campaign: " + newCampaignArray[0] + "_" + 0);
         await ddcsControllers.serverActionsUpdate({_id: engCache.config._id, campaignRotation: newCampaignArray});
         await ddcsControllers.setNewMissionFile(newCampaignArray[0], 0);
     } else {
+        console.log("No Campaign Rotation Array - loading campaign: " + engCache.config.currentCampaignId + "_" + 0);
         await ddcsControllers.setNewMissionFile(engCache.config.currentCampaignId, 0);
     }
     await setResetFullCampaign(true);
@@ -400,6 +408,29 @@ export async function getStaticCratesInProximity(
             dead: false,
             coalition
         });
+}
+
+export async function destroyStaticCratesInProximityOfPoint(
+    lonLat: number[]
+) {
+    const engCache = ddcsControllers.getEngineCache();
+    const cratesToDestroy = await ddcsControllers.unitActionReadStd({
+        lonLatLoc: {
+            $near: {
+                $geometry: {
+                    type: "Point",
+                    coordinates: lonLat
+                },
+                $maxDistance: engCache.campaign.crateUnpackDistance * 1000
+            }
+        },
+        objectCategory: 6,
+        dead: false
+    });
+    for (const curCrate of cratesToDestroy) {
+        // console.log("crateDestroyedDueToShelterKill: ", curCrate._id);
+        await ddcsControllers.destroyUnit(curCrate._id, "static");
+    }
 }
 
 export async function getFirst5CoalitionJTACInProximity(

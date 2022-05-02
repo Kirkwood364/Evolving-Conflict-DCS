@@ -8,13 +8,11 @@ import {I18nResolver} from "i18n-ts";
 import {ISrvPlayers} from "../../typings";
 
 export async function forcePlayerSpectator(playerId: string, mesg: string): Promise<void> {
-
     await ddcsController.sendUDPPacket("backEnd", {
         action: "CMD",
         cmd: `net.force_player_slot('${playerId}', 0, "")`,
         reqID: 0
     });
-
     await sendMesgToPlayerChatWindow(mesg, playerId);
 }
 
@@ -38,6 +36,14 @@ export async function loadMission(missionName: string): Promise<void> {
     await ddcsController.sendUDPPacket("backEnd", {
         action: "CMD",
         cmd: "net.load_mission([[" + missionName + "]])",
+        reqID: 0
+    });
+}
+
+export async function shutdownDcs(): Promise<void> {
+    await ddcsController.sendUDPPacket("backEnd", {
+        action: "CMD",
+        cmd: "DCS.exitProcess()",
         reqID: 0
     });
 }
